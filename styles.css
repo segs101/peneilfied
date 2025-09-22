@@ -75,7 +75,9 @@ nav{
             line-height: 1.6;
             color: #333;
         }
-
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        }
         /* Header/Navbar */
         nav{
         background-color: var(--dark-green);

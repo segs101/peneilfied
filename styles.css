@@ -71,12 +71,11 @@ nav{
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: open-sans, Arial, sans-serif;
             line-height: 1.6;
-            background-color: var(--light-green);
         }
         h1{
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            font-family:Montserrat, sans-serif;
         }
         /* Header/Navbar */
         nav{

@@ -14,7 +14,8 @@
 </head>
 <body>
     <!-- Navigation -->
-    <!-- Navbar -->
+   <!-- Navbar -->
+   <!-- Navbar -->
   <header class="sticky top-0 z-50">
     <nav class="">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -70,102 +71,145 @@
     </nav>
 
   </header>
-
-  <!-- CONTACT PAGE -->
-<section id="contact" class="py-16 bg-white">
-  <div class="container mx-auto px-6">
-    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Get In Touch</h2>
-
-    <div class="grid md:grid-cols-2 gap-12">
-      
-      <!-- Contact Information -->
-      <div>
-        <h3 class="text-2xl font-semibold text-[#7B1E1E] mb-4">Contact Information</h3>
-        <p class="text-gray-700 mb-4">We’d love to hear from you. Reach us through any of the following channels:</p>
-        
-        <div class="space-y-4">
-          <div class="flex items-center space-x-3">
-            <span class="bg-[#7B1E1E] text-white p-2 rounded-full">📍</span>
-            <p>Plot 12, Example Street, Ojodu Berger, Lagos, Nigeria</p>
+  <!-- Hero Section -->
+  <div id="default-carousel" class="relative w-full" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden md:h-96">
+      <!-- Item 1 -->
+      <div class="hidden duration-1000 ease-in-out " data-carousel-item>
+        <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1758230312/IMG_7474_ezmxrp.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 z-0" alt="...">
+        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center z-10  py-10">
+          <div class="text-center text-white px-4">
+            <h1 class="text-3xl md:text-5xl font-bold mb-4">Join Our Academic Family</h1>
+            <p class="text-lg md:text-xl">Building Future Leaders Through Excellence in Education</p>
           </div>
-          <div class="flex items-center space-x-3">
-            <span class="bg-[#7B1E1E] text-white p-2 rounded-full">📞</span>
-            <p>+234 701 234 5678</p>
-          </div>
-          <div class="flex items-center space-x-3">
-            <span class="bg-[#7B1E1E] text-white p-2 rounded-full">📧</span>
-            <p>info@penielfieldschools.com</p>
+          <div class="cta-buttons mt-6">
+            <a href="#admissions" class=" text-white px-6 py-3  bg-[#14532D] transition">
+              Enroll Now
+            </a>
           </div>
         </div>
       </div>
-
-      <!-- Contact Form -->
-      <div>
-        <h3 class="text-2xl font-semibold text-[#7B1E1E] mb-4">Send Us a Message</h3>
-        <form action="#" method="POST" class="space-y-4">
-          <div>
-            <label for="name" class="block text-gray-700 mb-1">Full Name</label>
-            <input type="text" id="name" name="name" required 
-              class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7B1E1E]">
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1758230317/IMG_7469_tjdvhm.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center z-10  py-10">
+          <div class="text-center text-white px-4">
+            <h1 class="text-3xl md:text-5xl font-bold mb-4">Join Our Academic Family</h1>
+            <p class="text-lg md:text-xl">Building Future Leaders Through Excellence in Education</p>
           </div>
-          <div>
-            <label for="email" class="block text-gray-700 mb-1">Email Address</label>
-            <input type="email" id="email" name="email" required 
-              class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7B1E1E]">
+          <div class="cta-buttons mt-6">
+            <a href="#admissions" class=" text-white px-6 py-3  bg-[#14532D] transition">
+              Enroll Now
+            </a>
           </div>
-          <div>
-            <label for="message" class="block text-gray-700 mb-1">Message</label>
-            <textarea id="message" name="message" rows="5" required 
-              class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#7B1E1E]"></textarea>
+        </div>
+      </div>
+      <!-- Item 3 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1758230246/IMG_7487_betpbo.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center z-10  py-10">
+          <div class="text-center text-white px-4">
+            <h1 class="text-3xl md:text-5xl font-bold mb-4">Join Our Academic Family</h1>
+            <p class="text-lg md:text-xl">Building Future Leaders Through Excellence in Education</p>
           </div>
-          <button type="submit" class="w-full bg-[#7B1E1E] text-white py-3 rounded-lg font-semibold hover:bg-[#5C1414] transition">
-            Send Message
-          </button>
-        </form>
+          <div class="cta-buttons mt-6">
+            <a href="#admissions" class=" text-white px-6 py-3  bg-[#14532D] transition">
+              Enroll Now
+            </a>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
+  <section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl md:text-4xl font-bold text-[#1D3B2A] mb-4">Primary School</h2>
+    <p class="text-gray-600 mb-8 max-w-2xl">
+      Empowering Young Minds to Think, Create, and Lead. At Penielfield Private Schools, 
+      our Primary School (Years 1–6) is where curiosity meets capability. With a curriculum 
+      blending Nigerian, British, and American standards, pupils are academically equipped, 
+      globally aware, and future-ready. Every lesson sparks inquiry, creativity, and collaboration, 
+      shaping confident thinkers and leaders.
+    </p>
 
-    <!-- Google Map Embed -->
-    <div class="mt-16">
-      <h3 class="text-2xl font-semibold text-[#7B1E1E] mb-6 text-center">Our Location</h3>
-      <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.927469888108!2d3.3763788000000003!3d6.6559118999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b955f0063659b%3A0x6ef41ab068ae4373!2sPenielfield%20Private%20Schools!5e0!3m2!1sen!2sng!4v1759054883934!5m2!1sen!2sng"
-        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
-      </iframe>
+    <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+      <h3 class="text-2xl font-semibold mb-3 text-[#1D3B2A]">What Makes Our Primary School Exceptional</h3>
+      <ul class="list-disc pl-6 text-gray-600 space-y-2">
+        <li>📖 Robust curriculum covering English, Math, Science, History, Geography, Creative Writing, and more</li>
+        <li>🎨 Specialist instruction in Music, Languages, ICT, P.E., and Visual Arts</li>
+        <li>🧠 Balanced focus on cognitive, psychomotor, and affective development</li>
+        <li>🗣 Public speaking and debate programs to build confidence</li>
+        <li>🧪 Enrichment through Spelling Bees, Math Olympiads, Science Fairs, and Creative Writing contests</li>
+        <li>🧩 Co-curricular clubs: STEM, Young Chef, Taekwondo, Drama, Robotics, and Entrepreneurship</li>
+        <li>👫 Character education promoting empathy, leadership, and teamwork</li>
+        <li>🧼 Safe, inclusive, and stimulating learning spaces</li>
+        <li>📋 Continuous assessment and progress tracking with feedback</li>
+        <li>🌍 Global perspective preparing students for international opportunities</li>
+      </ul>
     </div>
+
+    
+
+    <a href="/apply" class="inline-block bg-[#1D3B2A] text-white px-6 py-3 rounded-lg hover:bg-[#14532D] transition">
+      Apply Now
+    </a>
   </div>
 </section>
+
+
+  <!-- FAQ -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        <div>
+          <h3 class="font-semibold">When does admission start?</h3>
+          <p>Admissions open every June and close by August.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">Is there an entrance exam?</h3>
+          <p>Yes, all applicants must sit for an entrance exam or interview.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">Can I apply online?</h3>
+          <p>Yes, you can apply directly through this page or visit the school office.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>Contact Information</h4>
-                    <p>📍 123 Education Street, Lagos, Nigeria</p>
-                    <p>📞 +234 123 456 7890</p>
-                    <p>✉️ info@pioneerprepschool.edu.ng</p>
+                  <h4>Contact Information</h4>
+                  <p>📍 123 Education Street, Lagos, Nigeria</p>
+                  <p>📞 +234 123 456 7890</p>
+                  <p>✉️ info@pioneerprepschool.edu.ng</p>
                 </div>
                 <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <a href="#about">About Us</a>
-                    <a href="#academics">Academics</a>
-                    <a href="#admissions">Admissions</a>
-                    <a href="#news">News & Events</a>
+                  <h4>Quick Links</h4>
+                  <a href="#about">About Us</a>
+                  <a href="#academics">Academics</a>
+                  <a href="#admissions">Admissions</a>
+                  <a href="#news">News & Events</a>
                 </div>
                 <div class="footer-section">
-                    <h4>Resources</h4>
-                    <a href="#">Student Portal</a>
-                    <a href="#">Parent Portal</a>
-                    <a href="#">School Calendar</a>
-                    <a href="#">Downloads</a>
+                  <h4>Resources</h4>
+                  <a href="#">Student Portal</a>
+                  <a href="#">Parent Portal</a>
+                  <a href="#">School Calendar</a>
+                  <a href="#">Downloads</a>
                 </div>
                 <div class="footer-section">
-                    <h4>Follow Us</h4>
-                    <a href="#">Facebook</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Instagram</a>
-                    <a href="#">LinkedIn</a>
+                  <h4>Follow Us</h4>
+                  <a href="#">Facebook</a>
+                  <a href="#">Twitter</a>
+                  <a href="#">Instagram</a>
+                  <a href="#">LinkedIn</a>
                 </div>
             </div>
             <div class="footer-bottom">

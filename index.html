@@ -13,11 +13,16 @@
 
 </head>
 <body>
+    <!-- Christmas Banner -->
+<div class="w-full bg-red-700 text-white text-center py-2">
+    🎄 Merry Christmas & Happy New Year from Penielfield Private Schools! 🎄
+</div>
+
     <!-- Navbar -->
     <header class="sticky top-0 z-50">
         <nav class="">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="/index.html" class="flex items-center space-x-3 rtl:space-x-reverse logo-wrapper">
                 <img src="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg" class="h-10" alt="Flowbite Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Penielfield </span>
             </a>
@@ -89,7 +94,7 @@
 
             <!-- CTA Button -->
             <div class="mt-8">
-                <a href="#admission" 
+                <a href="#academics" 
                 class="bg-[#1D3B2A] text-white px-6 py-3  shadow-lg hover:bg-[#14532D] transition">
                 Learn More
                 </a>
@@ -448,22 +453,25 @@
             <h2 class="section-title">School Life Gallery</h2>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1759535540/489927349_1071550791658444_7707919084037358623_n_mviyib.jpg" alt="">
+                    <img src="/img/christmas1.jpeg" alt="">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1759530464/IMG_8128_gxbr4p.jpg" alt="">
+                    <img src="img/christmas2jpeg.jpeg" alt="">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1759530425/486512100_1051172583696265_4618125720153227919_n_1_wbxv3i.jpg" alt="">
+                    <img src="img/christmas3.jpeg" alt="">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1759530266/486245273_1051172453696278_5100856278746309193_n_t6xaik.jpg" alt="">
+                    <img src="img/christmas4.jpeg" alt="">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1759534904/IMG_8196_1_fih3qz.jpg" alt="">
+                    <img src="img/christmas5.jpeg" alt="">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1758230191/IMG_7516_s6x6uv.jpg" alt="">
+                    <img src="img/christmas6.jpeg" alt="">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/christmas7.jpeg" alt="">
                 </div>
             </div>
             <div style="text-align: center; margin-top: 2rem;">
@@ -609,7 +617,7 @@
             </button>
 
             <!-- Flyer Image -->
-            <img src="img/545128664_1182672013879654_37997.png" alt="Admission Flyer" class="w-full rounded-lg mb-4">
+            <img src="img/christmas.jpeg" alt="Admission Flyer" class="w-full rounded-lg mb-4">
     </div>
     </div>
 
@@ -653,6 +661,39 @@
                 }
             });
     </script>
+    <!-- Snowfall Effect -->
+<style>
+    .snowflake {
+        position: fixed;
+        top: -10px;
+        left: 50%;
+        font-size: 18px;
+        color: white;
+        opacity: 0.8;
+        animation: fall linear infinite;
+    }
+
+    @keyframes fall {
+        0% { transform: translateY(0) translateX(0); }
+        100% { transform: translateY(110vh) translateX(30px); }
+    }
+</style>
+
+<script>
+    function createSnowflake() {
+        const snowflake = document.createElement("div");
+        snowflake.innerHTML = "❄";
+        snowflake.classList.add("snowflake");
+        snowflake.style.left = Math.random() * window.innerWidth + "px";
+        snowflake.style.animationDuration = (Math.random() * 3 + 2) + "s";
+        document.body.appendChild(snowflake);
+
+        setTimeout(() => { snowflake.remove(); }, 5000);
+    }
+
+    setInterval(createSnowflake, 300);
+</script>
+
 
 </body>
 </html>

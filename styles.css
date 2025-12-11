@@ -69,6 +69,21 @@ nav{
             --white: #ffffff;
             --light-gray: #f8f9fa;
         }
+.logo-wrapper {
+    position: relative;
+}
+
+.logo-wrapper::after {
+    content: "";
+    position: absolute;
+    top: -12px;     /* adjust for perfect fit */
+    right: -5px;    /* adjust */
+    width: 28px;    /* hat size */
+    height: 30px;
+    background-image: url('img/hat.png'); /* your santa hat */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
         body {
             font-family: open-sans, Arial, sans-serif;

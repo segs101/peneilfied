@@ -1,699 +1,968 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penielfield Private Schools</title>
-    <link rel="icon" href="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="/styles.css">
+    <link
+      rel="icon"
+      href="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/styles.css" />
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Flowbite -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-
-</head>
-<body>
-    <!-- Christmas Banner -->
-<div class="w-full bg-red-700 text-white text-center py-2">
-    🎄 Merry Christmas & Happy New Year from Penielfield Private Schools! 🎄
-</div>
+  </head>
+  <body>
+    
 
     <!-- Navbar -->
     <header class="sticky top-0 z-50">
-        <nav class="">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="/index.html" class="flex items-center space-x-3 rtl:space-x-reverse logo-wrapper">
-                <img src="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg" class="h-10" alt="Flowbite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Penielfield </span>
-            </a>
-            <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                </svg>
-            </button>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
-                <li>
-                <a href="/index.html" class="block py-2 px-3 text-white bg-[#FFD700] rounded-sm md:bg-transparent md:text-[#FFD700] md:p-0 md:dark:text-[#FFD700] dark:bg-[#FFD700] md:dark:bg-transparent" aria-current="page">Home</a>
-                </li>
-                <li>
-                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 md:w-auto dark:text-white md:dark:hover:text-[#FFD700] dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Admission<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                    </svg></button>
-                    <!-- Dropdown menu -->
-                    <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100  shadow-sm w-44  ">
-                        <ul class="dropdownlist" aria-labelledby="dropdownLargeButton">
-                            <li>
-                                <a href="/creche.html" class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white">Creche</a>
-                            </li>
-                            <li>
-                                <a href="/pre-school.html" class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white">Pre-School</a>
-                            </li>
-                            <li>
-                                <a href="primary.html" class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white">Primary</a>
-                            </li>
-                            <li>
-                                <a href="college.html" class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white">College</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                <a href="/about.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-[#1f4123] md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-                </li>
-                <li>
-                <a href="/gallery.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Gallery</a>
-                </li>
-                <li>
-                <a href="/contact.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-                </li>
+      <nav class="">
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a
+            href="/index.html"
+            class="flex items-center space-x-3 rtl:space-x-reverse logo-wrapper"
+          >
+            <img
+              src="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg"
+              class="h-10"
+              alt="Flowbite Logo"
+            />
+            <span
+              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+              >Penielfield
+            </span>
+          </a>
+          <button
+            data-collapse-toggle="navbar-dropdown"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-dropdown"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+            <ul
+              class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0"
+            >
+              <li>
+                <a
+                  href="/index.html"
+                  class="block py-2 px-3 text-white bg-[#FFD700] rounded-sm md:bg-transparent md:text-[#FFD700] md:p-0 md:dark:text-[#FFD700] dark:bg-[#FFD700] md:dark:bg-transparent"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <button
+                  id="dropdownNavbarLink"
+                  data-dropdown-toggle="dropdownNavbar"
+                  class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 md:w-auto dark:text-white md:dark:hover:text-[#FFD700] dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                >
+                  Admission<svg
+                    class="w-2.5 h-2.5 ms-2.5"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m1 1 4 4 4-4"
+                    />
+                  </svg>
+                </button>
+                <!-- Dropdown menu -->
+                <div
+                  id="dropdownNavbar"
+                  class="z-10 hidden font-normal bg-white divide-y divide-gray-100 shadow-sm w-44"
+                >
+                  <ul
+                    class="dropdownlist"
+                    aria-labelledby="dropdownLargeButton"
+                  >
+                    <li>
+                      <a
+                        href="/creche.html"
+                        class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white"
+                        >Creche</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="/pre-school.html"
+                        class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white"
+                        >Pre-School</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="primary.html"
+                        class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white"
+                        >Primary</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="college.html"
+                        class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white"
+                        >College</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a
+                  href="/about.html"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-[#1f4123] md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/gallery.html"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/contact.html"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Contact</a
+                >
+              </li>
             </ul>
-            </div>
+          </div>
         </div>
-        </nav>
-
+      </nav>
     </header>
 
     <!-- Hero Section -->
-    <section class="relative bg-cover bg-center h-[60vh]" 
-    style="background-image: url('img/school.jpg');">
-    
-        <!-- Overlay -->
-        <div class="absolute inset-0 bg-black/50 flex flex-col items-center justify-center px-6">
-            
-            <!-- Text -->
-            <div class="text-center text-white max-w-3xl">
-                <h1 class="text-4xl md:text-5xl  font-bold p-2">
-                    <span class="">Penielfield</span> <span class="">Private Schools</span> 
-                </h1>
-                <p class="text-lg md:text-xl leading-relaxed">
-                    Learning In God's Light
-                </p>
-            </div>
-
-            <!-- CTA Button -->
-            <div class="mt-8">
-                <a href="#academics" 
-                class="bg-[#1D3B2A] text-white px-6 py-3  shadow-lg hover:bg-[#14532D] transition">
-                Learn More
-                </a>
-            </div>
+    <section
+      class="relative bg-cover bg-center h-[60vh]"
+      style="background-image: url(&quot;img/school.jpg&quot;)"
+    >
+      <!-- Overlay -->
+      <div
+        class="absolute inset-0 bg-black/50 flex flex-col items-center justify-center px-6"
+      >
+        <!-- Text -->
+        <div class="text-center text-white max-w-3xl">
+          <h1 class="text-4xl md:text-5xl font-bold p-2">
+            <span class="">Penielfield</span>
+            <span class="">Private Schools</span>
+          </h1>
+          <p class="text-lg md:text-xl leading-relaxed">
+            Learning In God's Light
+          </p>
         </div>
+
+        <!-- CTA Button -->
+        <div class="mt-8">
+          <a
+            href="#academics"
+            class="bg-[#1D3B2A] text-white px-6 py-3 shadow-lg hover:bg-[#14532D] transition"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- Academics Section -->
     <section id="academics" class="py-16 bg-gray-50">
-    <div class="container mx-auto px-6">
-        <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
-        Our Academic Programs
+      <div class="container mx-auto px-6">
+        <h2
+          class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12"
+        >
+          Our Academic Programs
         </h2>
 
         <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-        <!-- Creche -->
-            <a href="/creche.html">
-                <div class="bg-white  shadow-md overflow-hidden hover:shadow-xl transition duration-300">
-                    <!-- Image -->
-                    <img src="img/tinywow_tinywow_IMG_7871 (2)_84710555_84710616.jpg" alt="Creche Program" class="w-full h-40 object-cover">
+          <!-- Creche -->
+          <a href="/creche.html">
+            <div
+              class="bg-white shadow-md overflow-hidden hover:shadow-xl transition duration-300"
+            >
+              <!-- Image -->
+              <img
+                src="img/tinywow_tinywow_IMG_7871 (2)_84710555_84710616.jpg"
+                alt="Creche Program"
+                class="w-full h-40 object-cover"
+              />
 
-                    <!-- Content -->
-                    <div class="p-6 text-center">
-                        <h4 class="text-xl font-semibold text-gray-700 mb-2">Creche</h4>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                        A nurturing space where infants thrive through love, care, and early stimulation.We focus on comfort, bonding, and developmental milestones from day one.
+              <!-- Content -->
+              <div class="p-6 text-center">
+                <h4 class="text-xl font-semibold text-gray-700 mb-2">Creche</h4>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  A nurturing space where infants thrive through love, care, and
+                  early stimulation.We focus on comfort, bonding, and
+                  developmental milestones from day one.
+                </p>
+              </div>
+            </div>
+          </a>
 
-                        </p>
-                    </div>
-                </div>
-            </a>
-            
+          <!-- Pre-School -->
+          <a href="/pre-school.html">
+            <div
+              class="bg-white shadow-md overflow-hidden hover:shadow-xl transition duration-300"
+            >
+              <!-- Image -->
+              <img
+                src="img/pre-school 1.jpg"
+                alt="Creche Program"
+                class="w-full h-40 object-cover"
+              />
 
-        <!-- Pre-School -->
-            <a href="/pre-school.html">
-                <div class="bg-white  shadow-md overflow-hidden hover:shadow-xl transition duration-300">
-                    <!-- Image -->
-                    <img src="img/pre-school 1.jpg" alt="Creche Program" class="w-full h-40 object-cover">
+              <!-- Content -->
+              <div class="p-6 text-center">
+                <h4 class="text-xl font-semibold text-gray-700 mb-2">
+                  Pre-School
+                </h4>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Our Montessori-inspired preschool sparks curiosity through
+                  play-based learning.Children build foundational skills in
+                  language, numbers, and creativity.
+                </p>
+              </div>
+            </div>
+          </a>
 
-                    <!-- Content -->
-                    <div class="p-6 text-center">
-                        <h4 class="text-xl font-semibold text-gray-700 mb-2">Pre-School </h4>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                        Our Montessori-inspired preschool sparks curiosity through play-based learning.Children build foundational skills in language, numbers, and creativity.
+          <!-- Primary School -->
+          <a href="/primary.html">
+            <div
+              class="bg-white shadow-md overflow-hidden hover:shadow-xl transition duration-300"
+            >
+              <!-- Image -->
+              <img
+                src="img/tinywow_tinywow_IMG_7471_84711258_84711662.jpg"
+                alt="Creche Program"
+                class="w-full h-40 object-cover"
+              />
 
-                        </p>
-                    </div>
-                </div>
-            </a>
-            
+              <!-- Content -->
+              <div class="p-6 text-center">
+                <h4 class="text-xl font-semibold text-gray-700 mb-2">
+                  Primary School
+                </h4>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  A rich blend of global curricula prepares pupils for academic
+                  excellence and leadership.We nurture confident learners ready
+                  for any secondary school environment.
+                </p>
+              </div>
+            </div>
+          </a>
 
-        <!-- Primary School -->
-            <a href="/primary.html">
-                <div class="bg-white  shadow-md overflow-hidden hover:shadow-xl transition duration-300">
-                    <!-- Image -->
-                    <img src="img/tinywow_tinywow_IMG_7471_84711258_84711662.jpg" alt="Creche Program" class="w-full h-40 object-cover">
+          <!-- College -->
+          <a href="/college.html">
+            <div
+              class="bg-white shadow-md overflow-hidden hover:shadow-xl transition duration-300"
+            >
+              <!-- Image -->
+              <img
+                src="img/college1.jpg"
+                alt="Creche Program"
+                class="w-full h-40 object-cover"
+              />
 
-                    <!-- Content -->
-                    <div class="p-6 text-center">
-                        <h4 class="text-xl font-semibold text-gray-700 mb-2">Primary School</h4>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                        A rich blend of global curricula prepares pupils for academic excellence and leadership.We nurture confident learners ready for any secondary school environment.
-
-                        </p>
-                    </div>
-                </div>
-            </a>
-            
-
-        <!-- College -->
-            <a href="/college.html">
-                <div class="bg-white  shadow-md overflow-hidden hover:shadow-xl transition duration-300">
-                    <!-- Image -->
-                    <img src="img/college1.jpg" alt="Creche Program" class="w-full h-40 object-cover">
-
-                    <!-- Content -->
-                    <div class="p-6 text-center">
-                        <h4 class="text-xl font-semibold text-gray-700 mb-2">College</h4>
-                        <p class="text-gray-600 text-sm leading-relaxed">
-                        Our college program develops bold, disciplined students with global competence.Advanced academics and character training equip them to lead and succeed.
-                        </p>
-                    </div>
-                </div>
-            </a>
-            
+              <!-- Content -->
+              <div class="p-6 text-center">
+                <h4 class="text-xl font-semibold text-gray-700 mb-2">
+                  College
+                </h4>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                  Our college program develops bold, disciplined students with
+                  global competence.Advanced academics and character training
+                  equip them to lead and succeed.
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
-    </div>
+      </div>
     </section>
 
     <!-- School management -->
     <section class="py-20">
-  <div class="mx-auto px-10">
-    <div class="grid md:grid-cols-2 gap-10 items-center text-[#1D3B2A]">
-      
-      <!-- Left Content -->
-      <div class="order-2 md:order-1">
-        <h2 class="text-4xl font-bold mb-6">A Word From The School Management</h2>
-        <p class="text-lg leading-relaxed">
-          “At Penielfield, we are committed to high-quality teaching and learning—inside and outside the classroom. Our pastoral care ensures every pupil receives tailored guidance and support. We foster strong relationships among learners, parents, and staff in a warm, welcoming environment.
-        </p>
-        <p class="mt-4 text-lg leading-relaxed">
-          Whether you're a prospective parent, a passionate educator, or a member of our community, we invite you to visit us and experience PPS firsthand. I am proud to lead this exceptional school and look forward to meeting you at one of our events.”
-        </p>
+      <div class="mx-auto px-10">
+        <div class="grid md:grid-cols-2 gap-10 items-center text-[#1D3B2A]">
+          <!-- Left Content -->
+          <div class="order-2 md:order-1">
+            <h2 class="text-4xl font-bold mb-6">
+              A Word From The School Management
+            </h2>
+            <p class="text-lg leading-relaxed">
+              “At Penielfield, we are committed to high-quality teaching and
+              learning—inside and outside the classroom. Our pastoral care
+              ensures every pupil receives tailored guidance and support. We
+              foster strong relationships among learners, parents, and staff in
+              a warm, welcoming environment.
+            </p>
+            <p class="mt-4 text-lg leading-relaxed">
+              Whether you're a prospective parent, a passionate educator, or a
+              member of our community, we invite you to visit us and experience
+              PPS firsthand. I am proud to lead this exceptional school and look
+              forward to meeting you at one of our events.”
+            </p>
 
-        <a href="/about.html" 
-           class="inline-block mt-6 px-6 py-3 bg-[#1D3B2A] text-white shadow hover:bg-[#145c3b] transition">
-          Read More
-        </a>
+            <a
+              href="/about.html"
+              class="inline-block mt-6 px-6 py-3 bg-[#1D3B2A] text-white shadow hover:bg-[#145c3b] transition"
+            >
+              Read More
+            </a>
+          </div>
+
+          <!-- Right Image -->
+          <div class="order-1 md:order-2">
+            <img
+              src="img/school-management.jpg"
+              alt="School Management"
+              class="w-full h-auto rounded-2xl shadow-lg object-cover md:h-[500px] lg:h-[600px]"
+            />
+          </div>
+        </div>
       </div>
-
-      <!-- Right Image -->
-      <div class="order-1 md:order-2">
-        <img src="img/school-management.jpg" 
-             alt="School Management"
-             class="w-full h-auto rounded-2xl shadow-lg object-cover md:h-[500px] lg:h-[600px]" />
-      </div>
-
-    </div>
-  </div>
-</section>
-
+    </section>
 
     <!-- ------overview-------- -->
     <section class="bg-gray-50 py-12">
-        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8">
-            
-            <!-- Card -->
-            <div class="bg-[#1f4123] text-white p-8 shadow-lg">
-            <h3 class="text-2xl font-semibold mb-4">Admission</h3>
-            <p class="text-gray-200 mb-6">
-                We offer a transparent, merit-based admission process for all grade levels.
-                Entry is based on academic performance, conduct, and age eligibility.
-                Visit our Admissions page to begin your child’s journey at PPS.
-            </p>
-            <a href="#academics" 
-                class="inline-block border border-white px-5 py-2 rounded-md hover:bg-white hover:text-[#1E3A8A] transition">
-                Read More
-            </a>
-            </div>
-
-            <!-- Card -->
-            <div class="bg-[#1f4123] text-white p-8  shadow-lg">
-                <h3 class="text-2xl font-semibold mb-4">About Us</h3>
-                <p class="text-gray-200 mb-6">
-                Penielfield Private Schools is committed to nurturing morally upright, academically excellent learners.
-                    We blend Nigerian, British, and American curricula to raise globally competent children.
-                    Our goal is to make every individual a BETTER adult through holistic education.
-                </p>
-                <a href="/about.html"
-                    class="inline-block border border-white px-5 py-2 rounded-md hover:bg-white hover:text-[#1f4123] transition">
-                    Read More
-                </a>
-            </div>
-
-            <!-- Card -->
-            <div class="bg-[#1f4123] text-white p-8  shadow-lg">
-            <h3 class="text-2xl font-semibold mb-4">Gallery</h3>
-            <p class="text-gray-200 mb-6">
-                Explore vibrant moments from our classrooms, assemblies, and school events.
-                Our gallery showcases the joy, creativity, and achievements of PPS pupils.
-                See how learning comes alive at Penielfield.
-            </p>
-            <a href="/gallery.html"
-                class="inline-block border border-white px-5 py-2 rounded-md hover:bg-white hover:text-[#1f4123] transition">
-                Learn More
-            </a>
-            </div>
-
-            <!-- Card -->
-            <div class="bg-[#1f4123] text-white p-8  shadow-lg">
-            <h3 class="text-2xl font-semibold mb-4">Contact</h3>
-            <p class="text-gray-200 mb-6">
-                We’d love to hear from you!
-                Reach out via phone, email, or visit our campus in Lagos or Ogun State.
-                Our doors are always open to prospective families and partners
-            </p>
-            <a href="/contact.html"
-                class="inline-block border border-white px-5 py-2 rounded-md hover:bg-white hover:text-[#1f4123] transition">
-                Learn More
-            </a>
-            </div>
-
+      <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Card -->
+        <div class="bg-[#1f4123] text-white p-8 shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Admission</h3>
+          <p class="text-gray-200 mb-6">
+            We offer a transparent, merit-based admission process for all grade
+            levels. Entry is based on academic performance, conduct, and age
+            eligibility. Visit our Admissions page to begin your child’s journey
+            at PPS.
+          </p>
+          <a
+            href="#academics"
+            class="inline-block border border-white px-5 py-2 hover:bg-white hover:text-[#1E3A8A] transition"
+          >
+            Read More
+          </a>
         </div>
+
+        <!-- Card -->
+        <div class="bg-[#1f4123] text-white p-8 shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">About Us</h3>
+          <p class="text-gray-200 mb-6">
+            Penielfield Private Schools is committed to nurturing morally
+            upright, academically excellent learners. We blend Nigerian,
+            British, and American curricula to raise globally competent
+            children. Our goal is to make every individual a BETTER adult
+            through holistic education.
+          </p>
+          <a
+            href="/about.html"
+            class="inline-block border border-white px-5 py-2  hover:bg-white hover:text-[#1f4123] transition"
+          >
+            Read More
+          </a>
+        </div>
+
+        <!-- Card -->
+        <div class="bg-[#1f4123] text-white p-8 shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Gallery</h3>
+          <p class="text-gray-200 mb-6">
+            Explore vibrant moments from our classrooms, assemblies, and school
+            events. Our gallery showcases the joy, creativity, and achievements
+            of PPS pupils. See how learning comes alive at Penielfield.
+          </p>
+          <a
+            href="/gallery.html"
+            class="inline-block border border-white px-5 py-2  hover:bg-white hover:text-[#1f4123] transition"
+          >
+            Learn More
+          </a>
+        </div>
+
+        <!-- Card -->
+        <div class="bg-[#1f4123] text-white p-8 shadow-lg">
+          <h3 class="text-2xl font-semibold mb-4">Contact</h3>
+          <p class="text-gray-200 mb-6">
+            We’d love to hear from you! Reach out via phone, email, or visit our
+            campus in Lagos or Ogun State. Our doors are always open to
+            prospective families and partners
+          </p>
+          <a
+            href="/contact.html"
+            class="inline-block border border-white px-5 py-2  hover:bg-white hover:text-[#1f4123] transition"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- -- Curriculum Preview Section-- -->
     <section class="bg-gray-50 py-16" id="curriculum">
-    <div class="max-w-6xl mx-auto px-6 lg:px-8">
+      <div class="max-w-6xl mx-auto px-6 lg:px-8">
         <div class="text-center mb-10">
-        <h2 class="text-3xl font-bold text-gray-900 flex items-center justify-center gap-2">
+          <h2
+            class="text-3xl font-bold text-gray-900 flex items-center justify-center gap-2"
+          >
             📚 Our Curriculum
-        </h2>
-        <p class="mt-3 text-lg text-gray-600 max-w-2xl mx-auto">
-            At <span class="font-semibold">Penielfield Private Schools (PPS)</span>, 
-            we believe every child is unique and capable of achieving their personal best. 
-            Our curriculum nurtures <span class="font-semibold">academic excellence, creativity, character, 
-            and global readiness</span>—from the earliest years to secondary school.
-        </p>
+          </h2>
+          <p class="mt-3 text-lg text-gray-600 max-w-2xl mx-auto">
+            At
+            <span class="font-semibold">Penielfield Private Schools (PPS)</span
+            >, we believe every child is unique and capable of achieving their
+            personal best. Our curriculum nurtures
+            <span class="font-semibold"
+              >academic excellence, creativity, character, and global
+              readiness</span
+            >—from the earliest years to secondary school.
+          </p>
         </div>
 
         <!-- 3 Preview Cards -->
         <div class="grid gap-8 md:grid-cols-3">
-        <!-- Early Years -->
-        <div class="bg-white  shadow-md p-6 hover:shadow-lg transition">
-            <h3 class="text-xl font-semibold text-gray-800 mb-2">🧒 Early Years Foundation</h3>
+          <!-- Early Years -->
+          <div class="bg-white shadow-md p-6 hover:shadow-lg transition">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              🧒 Early Years Foundation
+            </h3>
             <p class="text-gray-600 text-sm">
-            We combine modern teaching methods with first-class facilities to help every child flourish. 
-            Focus areas include <span class="font-medium">language, numeracy, creativity, and social development</span>.
+              We combine modern teaching methods with first-class facilities to
+              help every child flourish. Focus areas include
+              <span class="font-medium"
+                >language, numeracy, creativity, and social development</span
+              >.
             </p>
-        </div>
+          </div>
 
-        <!-- Primary School -->
-        <div class="bg-white  shadow-md p-6 hover:shadow-lg transition">
-            <h3 class="text-xl font-semibold text-gray-800 mb-2">📘 Primary School</h3>
+          <!-- Primary School -->
+          <div class="bg-white shadow-md p-6 hover:shadow-lg transition">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              📘 Primary School
+            </h3>
             <p class="text-gray-600 text-sm">
-            Our blended curriculum (Nigerian, British & American) builds strong foundations in 
-            <span class="font-medium">English, Mathematics, Science, and the Arts</span>, 
-            while encouraging creativity and expression.
+              Our blended curriculum (Nigerian, British & American) builds
+              strong foundations in
+              <span class="font-medium"
+                >English, Mathematics, Science, and the Arts</span
+              >, while encouraging creativity and expression.
             </p>
-        </div>
+          </div>
 
-        <!-- Secondary School -->
-        <div class="bg-white  shadow-md p-6 hover:shadow-lg transition">
-            <h3 class="text-xl font-semibold text-gray-800 mb-2">🎓 Secondary School</h3>
+          <!-- Secondary School -->
+          <div class="bg-white shadow-md p-6 hover:shadow-lg transition">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              🎓 Secondary School
+            </h3>
             <p class="text-gray-600 text-sm">
-            Advanced studies prepare students for <span class="font-medium">higher education, leadership, 
-            and global opportunities</span> with emphasis on critical thinking and problem-solving.
+              Advanced studies prepare students for
+              <span class="font-medium"
+                >higher education, leadership, and global opportunities</span
+              >
+              with emphasis on critical thinking and problem-solving.
             </p>
-        </div>
+          </div>
         </div>
 
         <!-- Read More Button -->
         <div class="text-center mt-10">
-        <a href="/about.html#curriculum" 
-            class="inline-block px-6 py-3 bg-[#1D3B2A] text-white font-semibold  shadow-md hover:bg-[#154424] transition">
+          <a
+            href="/about.html#curriculum"
+            class="inline-block px-6 py-3 bg-[#1D3B2A] text-white font-semibold shadow-md hover:bg-[#154424] transition"
+          >
             Read Full Curriculum →
-        </a>
+          </a>
         </div>
-    </div>
+      </div>
     </section>
-
 
     <!-- Why PPS Section -->
     <section id="why-pps" class="bg-[#e8f5e8] py-16 px-6 md:px-12 lg:px-24">
-    <div class="max-w-7xl mx-auto">
+      <div class="max-w-7xl mx-auto">
         <div class="text-center mb-12">
-            <h2 class="text-3xl font-bold text-[#1D3B2A]">Why Choose PPS?</h2>
-            <p class="text-gray-600 mt-2">What makes Penielfield Private Schools the right place for your child’s future?</p>
+          <h2 class="text-3xl font-bold text-[#1D3B2A]">Why Choose PPS?</h2>
+          <p class="text-gray-600 mt-2">
+            What makes Penielfield Private Schools the right place for your
+            child’s future?
+          </p>
         </div>
 
         <div class="grid md:grid-cols-2 gap-8">
-        <ul class="space-y-4 text-gray-700 leading-relaxed">
+          <ul class="space-y-4 text-gray-700 leading-relaxed">
             <li class="flex items-start">
-            <span class="text-[#7B1E1E] font-bold mr-2">•</span> Well-structured and carefully planned learning environment.
+              <span class="text-[#7B1E1E] font-bold mr-2">•</span>
+              Well-structured and carefully planned learning environment.
             </li>
             <li class="flex items-start">
-            <span class="text-[#7B1E1E] font-bold mr-2">•</span> Dedicated, experienced, and committed teachers and support staff.
+              <span class="text-[#7B1E1E] font-bold mr-2">•</span> Dedicated,
+              experienced, and committed teachers and support staff.
             </li>
             <li class="flex items-start">
-            <span class="text-[#7B1E1E] font-bold mr-2">•</span> Fully equipped ICT lab with internet and a 21st-century curriculum.
+              <span class="text-[#7B1E1E] font-bold mr-2">•</span> Fully
+              equipped ICT lab with internet and a 21st-century curriculum.
             </li>
             <li class="flex items-start">
-            <span class="text-[#7B1E1E] font-bold mr-2">•</span> Blended American, British, and Nigerian curricula across all levels.
+              <span class="text-[#7B1E1E] font-bold mr-2">•</span> Blended
+              American, British, and Nigerian curricula across all levels.
             </li>
             <li class="flex items-start">
-            <span class="text-[#7B1E1E] font-bold mr-2">•</span> Child-centered teaching principles – because it’s all about your child!
+              <span class="text-[#7B1E1E] font-bold mr-2">•</span>
+              Child-centered teaching principles – because it’s all about your
+              child!
             </li>
             <li class="flex items-start">
-            <span class="text-[#7B1E1E] font-bold mr-2">•</span> Unlimited teaching and instructional resources.
+              <span class="text-[#7B1E1E] font-bold mr-2">•</span> Unlimited
+              teaching and instructional resources.
             </li>
-        </ul>
+          </ul>
 
-        <ul class="space-y-4 text-gray-700 leading-relaxed">
+          <ul class="space-y-4 text-gray-700 leading-relaxed">
             <li class="flex items-start">
-            <span class="text-[#7B1E1E] font-bold mr-2">•</span> Ballet & Chess activities from Early Years to Secondary level.
+              <span class="text-[#7B1E1E] font-bold mr-2">•</span> Ballet &
+              Chess activities from Early Years to Secondary level.
             </li>
             <li class="flex items-start">
-            <span class="text-[#7B1E1E] font-bold mr-2">•</span> Variety of clubs for talent discovery and nurturing.
+              <span class="text-[#7B1E1E] font-bold mr-2">•</span> Variety of
+              clubs for talent discovery and nurturing.
             </li>
             <li class="flex items-start">
-            <span class="text-[#7B1E1E] font-bold mr-2">•</span> Enriched Montessori & Early Years curriculum that excites children.
+              <span class="text-[#7B1E1E] font-bold mr-2">•</span> Enriched
+              Montessori & Early Years curriculum that excites children.
             </li>
             <li class="flex items-start">
-            <span class="text-[#7B1E1E] font-bold mr-2">•</span> Co-curricular activities to boost academic and physical growth.
+              <span class="text-[#7B1E1E] font-bold mr-2">•</span> Co-curricular
+              activities to boost academic and physical growth.
             </li>
             <li class="flex items-start">
-            <span class="text-[#7B1E1E] font-bold mr-2">•</span> Well-stocked library with updated books and learning materials.
+              <span class="text-[#7B1E1E] font-bold mr-2">•</span> Well-stocked
+              library with updated books and learning materials.
             </li>
             <li class="flex items-start">
-            <span class="text-[#7B1E1E] font-bold mr-2">•</span> Strict supervision ensuring Safety, Security, and Standards (3S).
+              <span class="text-[#7B1E1E] font-bold mr-2">•</span> Strict
+              supervision ensuring Safety, Security, and Standards (3S).
             </li>
-        </ul>
+          </ul>
         </div>
-    </div>
+      </div>
     </section>
 
     <!-- Academics Section -->
     <section id="academics" class="bg-gray-50 py-16 px-6 md:px-12 lg:px-24">
-    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-
+      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <!-- Left: Write-up -->
         <div class="flex justify-center">
-            <img src="img/545128664_1182672013879654_37997.png" alt="Academics Flyer" 
-            class="rounded-lg shadow-xl w-full md:w-[90%] lg:w-[80%]">
+          <img
+            src="img/545128664_1182672013879654_37997.png"
+            alt="Academics Flyer"
+            class="rounded-lg shadow-xl w-full md:w-[90%] lg:w-[80%]"
+          />
         </div>
 
         <!-- Right: Flyer / Image -->
         <div>
-        <h2 class="text-3xl font-bold text-[#1f4123] mb-4">Our Academics</h2>
-        <p class="text-gray-700 leading-relaxed mb-6">
-            At Penifield Private Schools, we believe education should inspire curiosity,
-            develop critical thinking, and prepare students for excellence in a global society. 
-            Our academic programs are enriched with a blended American, British, and Nigerian curriculum,
-            designed to provide your child with world-class education while nurturing individual talents.
-        </p>
-            <ul class="space-y-4 text-gray-700">
-                <li class="flex items-start">
-                <svg class="w-5 h-5 text-[#1f4123] mr-2" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 20h9"></path><path d="M12 4H3"></path>
-                    <path d="M12 4v16"></path>
-                </svg>
-                Early Years, Primary, and Secondary School programs
-                </li>
-                <li class="flex items-start">
-                <svg class="w-5 h-5 text-[#1f4123] mr-2" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M21 10H7"></path><path d="M3 6h18"></path>
-                    <path d="M3 14h18"></path><path d="M7 18h14"></path>
-                </svg>
-                Blended American, British & Nigerian curriculum
-                </li>
-                <li class="flex items-start">
-                <svg class="w-5 h-5 text-[#1f4123] mr-2" fill="none" stroke="currentColor" stroke-width="2"
-                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path d="M12 16v-4"></path>
-                    <path d="M12 8h.01"></path>
-                </svg>
-                Focus on academic excellence and character development
-                </li>
-            </ul>
+          <h2 class="text-3xl font-bold text-[#1f4123] mb-4">Our Academics</h2>
+          <p class="text-gray-700 leading-relaxed mb-6">
+            At Penifield Private Schools, we believe education should inspire
+            curiosity, develop critical thinking, and prepare students for
+            excellence in a global society. Our academic programs are enriched
+            with a blended American, British, and Nigerian curriculum, designed
+            to provide your child with world-class education while nurturing
+            individual talents.
+          </p>
+          <ul class="space-y-4 text-gray-700">
+            <li class="flex items-start">
+              <svg
+                class="w-5 h-5 text-[#1f4123] mr-2"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M12 20h9"></path>
+                <path d="M12 4H3"></path>
+                <path d="M12 4v16"></path>
+              </svg>
+              Early Years, Primary, and Secondary School programs
+            </li>
+            <li class="flex items-start">
+              <svg
+                class="w-5 h-5 text-[#1f4123] mr-2"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M21 10H7"></path>
+                <path d="M3 6h18"></path>
+                <path d="M3 14h18"></path>
+                <path d="M7 18h14"></path>
+              </svg>
+              Blended American, British & Nigerian curriculum
+            </li>
+            <li class="flex items-start">
+              <svg
+                class="w-5 h-5 text-[#1f4123] mr-2"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 16v-4"></path>
+                <path d="M12 8h.01"></path>
+              </svg>
+              Focus on academic excellence and character development
+            </li>
+          </ul>
 
-            <a href="#academics"
-            class="inline-block mt-6 bg-[#1f4123] text-white px-6 py-3 shadow hover:bg-[#16306d] transition">
+          <a
+            href="#academics"
+            class="inline-block mt-6 bg-[#1f4123] text-white px-6 py-3 shadow hover:bg-[#16306d] transition"
+          >
             Learn More
-        </a>
+          </a>
         </div>
-
-    </div>
+      </div>
     </section>
 
     <!-- Gallery Section -->
-    <section id="gallery" class="gallery section">
-        <div class="container">
-            <h2 class="section-title">School Life Gallery</h2>
+    <section id="gallery" class="gallery section ">
+        <div class="gallery-header fade-in container mx-auto px-6">
+            <div>
+                <div class="section-label">School Life</div>
+                    <h2 class="section-title">Vibrant Moments at <em>PPS</em></h2>
+                </div>
+                <a href="/gallery.html" class="btn-primary">View Full Gallery →</a>
+            </div>
+        </div>
+        <div class="container mx-auto px-6">
+            
             <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="/img/christmas1.jpeg" alt="">
-                </div>
-                <div class="gallery-item">
-                    <img src="img/christmas2jpeg.jpeg" alt="">
-                </div>
-                <div class="gallery-item">
-                    <img src="img/christmas3.jpeg" alt="">
-                </div>
-                <div class="gallery-item">
-                    <img src="img/christmas4.jpeg" alt="">
-                </div>
-                <div class="gallery-item">
-                    <img src="img/christmas5.jpeg" alt="">
-                </div>
-                <div class="gallery-item">
-                    <img src="img/christmas6.jpeg" alt="">
-                </div>
-                <div class="gallery-item">
-                    <img src="img/christmas7.jpeg" alt="">
-                </div>
+            <div class="gallery-item">
+                <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1759530427/486573169_1051172300362960_8489733222296212971_n_rrh3p2.jpg" alt=""/>
             </div>
-            <div style="text-align: center; margin-top: 2rem;">
-                <a href="/gallery.html" class="gallery-btn">View Full Gallery</a>
+            <div class="gallery-item">
+                <img src="img/001.jpeg" alt=""/>
             </div>
+            <div class="gallery-item">
+                <img src="img/002.jpeg" alt="" />
+            </div>
+            <div class="gallery-item">
+                <img src="img/003.jpeg" alt="" />
+            </div>
+            <div class="gallery-item">
+                <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1759534882/IMG_8185_aklc3t.jpg" alt="" />
+            </div>
+            <div class="gallery-item">
+                <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1759530376/486868049_1054957543317769_3955503649515707142_n_jymcgy.jpg" alt="" />
+            </div>
+            <div class="gallery-item">
+                <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1759535343/487461997_1057220793091444_2619120137313545388_n_aoqaxa.jpg" alt="" />
+            </div>
+            </div>
+            
         </div>
     </section>
 
     <!-- --------contact Section -------- -->
-<section class="get-in-touch section bg-[#8c1420] py-16">
-  <div class="container mx-auto px-4">
-    <h2 class="section-title text-white text-3xl md:text-4xl font-bold mb-8 text-center">
-      Get in Touch
+<!-- CONTACT -->
+<section id="contact" class="bg-[#8c1420] grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start px-6 py-20 md:px-12 lg:px-20">
+  
+  <!-- Contact Info -->
+  <div class="fade-in">
+    <div class="text-[#D4AF37] uppercase tracking-[0.15em] text-sm font-semibold">
+      Get In Touch
+    </div>
+
+    <h2 class="mt-3 text-white text-4xl md:text-5xl font-serif leading-tight">
+      We'd Love to <em class="italic text-[#F1D48B]">Meet You</em>
     </h2>
-    <p class="text-white text-center mb-12">
-      Have questions or want to know more? Reach out to us and we’ll get back to you promptly.
+
+    <p class="text-white/60 leading-8 mt-5 mb-10 max-w-xl">
+      Our doors are always open to prospective families and partners. Reach out to begin your child's journey at Penielfield Private Schools.
     </p>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <!-- Contact Info -->
-      <div class="text-white space-y-4">
-        <p><strong>Address:</strong> Plot 2-3 Denro-isashi Rd, Ojodu Abiodun, Ojodu Berger Axis</p>
-        <p><strong>Email:</strong> penielfieldpschools@gmail.com </p>
-        <p><strong>Phone:</strong> 090-256-36282 | 081-054-30843</p>
-        <p><strong>Follow us:</strong> 
-          <a href="https://web.facebook.com/penielfieldsng" class="underline">Facebook</a>, 
-          <a href="https://www.instagram.com/penielfieldsng">Instagram</a>, 
-          <a href="https://www.linkedin.com/company/penielfield-schools/">LinkedIn</a>
-        </p>
+    <div class="flex flex-col gap-5">
+      
+      <!-- Address -->
+      <div class="flex gap-4 items-start">
+        <div class="w-10 h-10 rounded-lg bg-[rgba(201,151,58,0.15)] border border-[rgba(201,151,58,0.2)] flex items-center justify-center text-base shrink-0">
+          📍
+        </div>
+        <div>
+          <strong class="block text-sm text-white/50 font-medium mb-1">Address</strong>
+          <p class="text-sm md:text-base text-white">
+            Plot 2-3 Denro-Isashi Rd, Ojodu Abiodun, Ojodu Berger Axis, Lagos
+          </p>
+        </div>
       </div>
 
-      <!-- Contact Form -->
-      <form id="contactForm" class="bg-white p-6 shadow-md space-y-4">
-        <div>
-          <label class="block text-gray-700 font-medium mb-1" for="fullname">Full Name</label>
-          <input class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
-                 type="text" id="fullname" placeholder="Your Full Name" required>
+      <!-- Phone -->
+      <div class="flex gap-4 items-start">
+        <div class="w-10 h-10 rounded-lg bg-[rgba(201,151,58,0.15)] border border-[rgba(201,151,58,0.2)] flex items-center justify-center text-base shrink-0">
+          📞
         </div>
-
         <div>
-          <label class="block text-gray-700 font-medium mb-1" for="childname">Child’s Name</label>
-          <input class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
-                 type="text" id="childname" placeholder="Your Child’s Name" required>
+          <strong class="block text-sm text-white/50 font-medium mb-1">Phone</strong>
+          <p class="text-sm md:text-base text-white">
+            090-256-36282 | 081-054-30843
+          </p>
         </div>
+      </div>
 
+      <!-- Email -->
+      <div class="flex gap-4 items-start">
+        <div class="w-10 h-10 rounded-lg bg-[rgba(201,151,58,0.15)] border border-[rgba(201,151,58,0.2)] flex items-center justify-center text-base shrink-0">
+          ✉️
+        </div>
         <div>
-          <label class="block text-gray-700 font-medium mb-1" for="intendedClass">Intended Class</label>
-          <input class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
-                 type="text" id="intendedClass" placeholder="e.g. Primary 3, JSS 1" required>
+          <strong class="block text-sm text-white/50 font-medium mb-1">Email</strong>
+          <p class="text-sm md:text-base text-white">
+            penielfieldpschools@gmail.com
+          </p>
         </div>
-
-        <div>
-          <label class="block text-gray-700 font-medium mb-1" for="age">Age</label>
-          <input class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
-                 type="number" id="age" placeholder="Child’s Age" required>
-        </div>
-
-        <div>
-          <label class="block text-gray-700 font-medium mb-1" for="phone">Phone Number</label>
-          <input class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
-                 type="tel" id="phone" placeholder="Your Phone Number" required>
-        </div>
-
-        <div>
-          <label class="block text-gray-700 font-medium mb-1" for="message">Message</label>
-          <textarea class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
-                    id="message" rows="4" placeholder="Your Message" required></textarea>
-        </div>
-
-        <button type="submit" class="bg-yellow-400 text-[#8c1420] font-bold py-2 px-6 rounded hover:bg-yellow-500 transition">
-          Send Message
-        </button>
-      </form>
-
-      <script>
-        document.getElementById("contactForm").addEventListener("submit", function(event) {
-          event.preventDefault();
-
-          let fullname = document.getElementById("fullname").value;
-          let childname = document.getElementById("childname").value;
-          let intendedClass = document.getElementById("intendedClass").value;
-          let age = document.getElementById("age").value;
-          let phone = document.getElementById("phone").value;
-          let message = document.getElementById("message").value;
-
-          // Format the WhatsApp message
-          let whatsappMessage = `Hello, my name is ${fullname}%0AChild's Name: ${childname}%0AIntended Class: ${intendedClass}%0AAge: ${age}%0APhone: ${phone}%0AMessage: ${message}`;
-
-          // Target number (with country code for Nigeria: +234)
-          let phoneNumber = "2348105430843";
-
-          // Redirect to WhatsApp chat
-          window.open(`https://wa.me/${phoneNumber}?text=${whatsappMessage}`, "_blank");
-        });
-      </script>
+      </div>
     </div>
+
+    <!-- Social Links -->
+    <div class="flex gap-3 mt-8">
+      <a href="https://web.facebook.com/penielfieldsng" title="Facebook"
+         class="w-10 h-10 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center text-white text-sm no-underline transition hover:bg-[rgba(201,151,58,0.15)] hover:border-[rgba(201,151,58,0.3)]">
+        f
+      </a>
+      <a href="https://www.instagram.com/penielfieldsng" title="Instagram"
+         class="w-10 h-10 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center text-white text-sm no-underline transition hover:bg-[rgba(201,151,58,0.15)] hover:border-[rgba(201,151,58,0.3)]">
+        ig
+      </a>
+      <a href="https://www.linkedin.com/company/penielfield-schools/" title="LinkedIn"
+         class="w-10 h-10 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center text-white text-sm no-underline transition hover:bg-[rgba(201,151,58,0.15)] hover:border-[rgba(201,151,58,0.3)]">
+        in
+      </a>
+    </div>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="fade-in fade-in-delay bg-white/5 border border-white/10 rounded-2xl p-8 md:p-10">
+    <h3 class="text-white font-serif text-2xl mb-8">
+      Apply for Admission
+    </h3>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="flex flex-col gap-2 mb-4">
+        <label class="text-xs font-semibold text-white/50 tracking-[0.06em] uppercase">
+          Parent Full Name
+        </label>
+        <input type="text" placeholder="Your full name"
+          class="bg-white/10 border border-white/15 text-white rounded-lg px-4 py-3 text-sm outline-none focus:border-[rgba(201,151,58,0.5)] placeholder:text-white/30" />
+      </div>
+
+      <div class="flex flex-col gap-2 mb-4">
+        <label class="text-xs font-semibold text-white/50 tracking-[0.06em] uppercase">
+          Child's Name
+        </label>
+        <input type="text" placeholder="Child's full name"
+          class="bg-white/10 border border-white/15 text-white rounded-lg px-4 py-3 text-sm outline-none focus:border-[rgba(201,151,58,0.5)] placeholder:text-white/30" />
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="flex flex-col gap-2 mb-4">
+        <label class="text-xs font-semibold text-white/50 tracking-[0.06em] uppercase">
+          Intended Class
+        </label>
+        <select
+          class="bg-white/10 border border-white/15 text-white rounded-lg px-4 py-3 text-sm outline-none focus:border-[rgba(201,151,58,0.5)]">
+          <option value="" class="bg-[#0B1C3D]">Select program</option>
+          <option class="bg-[#0B1C3D]">Crèche</option>
+          <option class="bg-[#0B1C3D]">Pre-School</option>
+          <option class="bg-[#0B1C3D]">Primary School</option>
+          <option class="bg-[#0B1C3D]">College</option>
+        </select>
+      </div>
+
+      <div class="flex flex-col gap-2 mb-4">
+        <label class="text-xs font-semibold text-white/50 tracking-[0.06em] uppercase">
+          Child's Age
+        </label>
+        <input type="text" placeholder="e.g. 5 years"
+          class="bg-white/10 border border-white/15 text-white rounded-lg px-4 py-3 text-sm outline-none focus:border-[rgba(201,151,58,0.5)] placeholder:text-white/30" />
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-2 mb-4">
+      <label class="text-xs font-semibold text-white/50 tracking-[0.06em] uppercase">
+        Phone Number
+      </label>
+      <input type="tel" placeholder="+234 xxx xxx xxxx"
+        class="bg-white/10 border border-white/15 text-white rounded-lg px-4 py-3 text-sm outline-none focus:border-[rgba(201,151,58,0.5)] placeholder:text-white/30" />
+    </div>
+
+    <div class="flex flex-col gap-2 mb-6">
+      <label class="text-xs font-semibold text-white/50 tracking-[0.06em] uppercase">
+        Message
+      </label>
+      <textarea placeholder="Tell us more about your child or any questions you have..."
+        class="bg-white/10 border border-white/15 text-white rounded-lg px-4 py-3 text-sm outline-none focus:border-[rgba(201,151,58,0.5)] placeholder:text-white/30 h-28 resize-none"></textarea>
+    </div>
+
+    <button
+      class="w-full bg-gradient-to-r from-[#C9973A] to-[#F1D48B] text-[#0B1C3D] border-none py-4 rounded-lg font-bold text-sm uppercase tracking-[0.04em] cursor-pointer transition hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(201,151,58,0.3)]">
+      Send Application →
+    </button>
   </div>
 </section>
 
-
-
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            
-            
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg" alt="">
-                </div>
-                <div class="footer-section">
-                    <h4>Contact Information</h4>
-                    <p class="mb-2">📍 Plot 2-3 Denro-isashi Rd, Ojodu Abiodun, Ojodu Berger Axis</p>
-                    <p class="mb-2">📞 081-054-30843 | 090-256-36282 </p>
-                    <p class="mb-2">✉️ penielfieldpschools@gmail.com</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <a href="/about.html">About Us</a>
-                    <a href="#academics">Academics</a>
-                    <a href="#admissions">Admissions</a>
-                    <a href="/gallery.html">Gallery</a>
-                </div>
-                <div class="footer-section">
-                    <h4>Follow Us</h4>
-                    <a href="https://web.facebook.com/penielfieldsng">Facebook</a>
-                    <a href="https://www.instagram.com/penielfieldsng">Instagram</a>
-                    <a href="https://www.linkedin.com/company/penielfield-schools/">LinkedIn</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Penielfield Private Schools. All Rights Reserved | <span class="font-s text-gray-300">designed by <a href="https://bbyprogrammer.netlify.app/">Bbyprogrammer</a></span></p>
-            </div>
-        </div>
-    </footer>
-    <!-- Popup Modal -->
-    <div id="admissionModal" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 hidden">
-    <!-- Modal Content -->
-        <div class="shadow-4xl max-w-md w-full p-6 relative" onclick="event.stopPropagation()">
-            <!-- Close Button -->
-            <button onclick="closeModal()" class="absolute text-3xl p-3 top-3 right-3 text-white">
-            ✕
-            </button>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <!-- Brand -->
+      <div class="footer-brand">
+        <img
+          src="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg"
+          alt="Penielfield Private Schools Logo"
+        />
+        <p class="footer-brand-text">
+          Raising confident, excellent, and morally grounded learners in a safe
+          and inspiring environment.
+        </p>
+      </div>
 
-            <!-- Flyer Image -->
-            <img src="img/christmas.jpeg" alt="Admission Flyer" class="w-full rounded-lg mb-4">
+      <!-- Contact -->
+      <div class="footer-section">
+        <h4>Contact Us</h4>
+        <p>📍 Plot 2-3 Denro-Isashi Rd, Ojodu Abiodun, Ojodu Berger Axis, Lagos</p>
+        <p>📞 081-054-30843 | 090-256-36282</p>
+        <p>✉️ penielfieldpschools@gmail.com</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="/about.html">About Us</a>
+        <a href="#academics">Academics</a>
+        <a href="#admissions">Admissions</a>
+        <a href="/gallery.html">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <!-- Social -->
+      <div class="footer-section">
+        <h4>Connect With Us</h4>
+        <a href="https://web.facebook.com/penielfieldsng" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/penielfieldsng" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/company/penielfield-schools/" target="_blank">LinkedIn</a>
+      </div>
     </div>
+
+    <div class="footer-bottom">
+      <p>
+        &copy; 2025 Penielfield Private Schools. All Rights Reserved.
+      </p>
+      <p class="footer-credit">
+        Designed by 
+        <a href="https://bbyprogrammer.netlify.app/" target="_blank">Bbyprogrammer</a>
+      </p>
+    </div>
+  </div>
+</footer>
+    <!-- Popup Modal -->
+    <div
+      id="admissionModal"
+      class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 hidden"
+    >
+      <!-- Modal Content -->
+      <div
+        class="shadow-4xl max-w-md w-full p-6 relative"
+        onclick="event.stopPropagation()"
+      >
+        <!-- Close Button -->
+        <button
+          onclick="closeModal()"
+          class="absolute text-3xl p-3 top-3 right-3 text-white"
+        >
+          ✕
+        </button>
+
+        <!-- Flyer Image -->
+        <img
+          src="img/flyer02.jpeg"
+          alt="Admission Flyer"
+          class="w-full rounded-lg mb-4"
+        />
+      </div>
     </div>
 
     <script>
-    const modal = document.getElementById('admissionModal');
+      const modal = document.getElementById("admissionModal");
 
-    // Show modal on page load
-    window.addEventListener('load', () => {
-        modal.classList.remove('hidden');
-    });
+      // Show modal on page load
+      window.addEventListener("load", () => {
+        modal.classList.remove("hidden");
+      });
 
-    // Close modal function
-    function closeModal() {
-        modal.classList.add('hidden');
-    }
+      // Close modal function
+      function closeModal() {
+        modal.classList.add("hidden");
+      }
 
-    // Close when clicking outside content
-    modal.addEventListener('click', closeModal);
+      // Close when clicking outside content
+      modal.addEventListener("click", closeModal);
 
-    // Smooth scrolling for navigation links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    const target = document.querySelector(this.getAttribute('href'));
-                    if (target) {
-                        target.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
-                    }
-                });
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
             });
+          }
+        });
+      });
 
-            // Add scroll effect to navbar
-            window.addEventListener('scroll', function() {
-                const navbar = document.querySelector('.navbar');
-                if (window.scrollY > 100) {
-                    navbar.style.background = 'rgba(26, 87, 41, 0.95)';
-                } else {
-                    navbar.style.background = 'var(--dark-green)';
-                }
-            });
+      // Add scroll effect to navbar
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 100) {
+          navbar.style.background = "rgba(26, 87, 41, 0.95)";
+        } else {
+          navbar.style.background = "var(--dark-green)";
+        }
+      });
     </script>
     <!-- Snowfall Effect -->
-<style>
-    .snowflake {
-        position: fixed;
-        top: -10px;
-        left: 50%;
-        font-size: 18px;
-        color: white;
-        opacity: 0.8;
-        animation: fall linear infinite;
-    }
-
-    @keyframes fall {
-        0% { transform: translateY(0) translateX(0); }
-        100% { transform: translateY(110vh) translateX(30px); }
-    }
-</style>
-
-<script>
-    function createSnowflake() {
-        const snowflake = document.createElement("div");
-        snowflake.innerHTML = "❄";
-        snowflake.classList.add("snowflake");
-        snowflake.style.left = Math.random() * window.innerWidth + "px";
-        snowflake.style.animationDuration = (Math.random() * 3 + 2) + "s";
-        document.body.appendChild(snowflake);
-
-        setTimeout(() => { snowflake.remove(); }, 5000);
-    }
-
-    setInterval(createSnowflake, 300);
-</script>
-
-
-</body>
+  </body>
 </html>

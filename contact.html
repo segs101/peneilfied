@@ -1,238 +1,435 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penifield Private Schools</title>
-    <link rel="icon" href="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="/styles.css">
+    <link
+      rel="icon"
+      href="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/styles.css" />
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Flowbite -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-    
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navigation -->
-  <!-- Navbar -->
+    <!-- Navbar -->
     <header class="sticky top-0 z-50">
-        <nav class="">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg" class="h-10" alt="Flowbite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Penielfield </span>
-            </a>
-            <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                </svg>
-            </button>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
-                <li>
-                <a href="/index.html" class="block py-2 px-3 text-white rounded-sm md:p-0 hover:bg-[#1f4123] md:hover:text-[#FFD700]" aria-current="page">Home</a>
-                </li>
-                <li>
-                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 md:w-auto dark:text-white md:dark:hover:text-[#FFD700] dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Admission<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                    </svg></button>
-                    <!-- Dropdown menu -->
-                    <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100  shadow-sm w-44  ">
-                        <ul class="dropdownlist" aria-labelledby="dropdownLargeButton">
-                            <li>
-                                <a href="/creche.html" class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white">Creche</a>
-                            </li>
-                            <li>
-                                <a href="/pre-school.html" class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white">Pre-School</a>
-                            </li>
-                            <li>
-                                <a href="primary.html" class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white">Primary</a>
-                            </li>
-                            <li>
-                                <a href="college.html" class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white">College</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                <a href="/about.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-[#1f4123] md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-                </li>
-                <li>
-                <a href="/gallery.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Gallery</a>
-                </li>
-                <li>
-                <a href="/contact.html" class="block py-2 px-3 text-gray-900 rounded-sm text-white bg-[#FFD700] rounded-sm md:bg-transparent md:text-[#FFD700] md:p-0 md:dark:text-[#FFD700] dark:bg-[#FFD700] md:dark:bg-transparent">Contact</a>
-                </li>
+      <nav class="">
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a
+            href="/index.html"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img
+              src="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg"
+              class="h-10"
+              alt="Flowbite Logo"
+            />
+            <span
+              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+              >Penielfield
+            </span>
+          </a>
+          <button
+            data-collapse-toggle="navbar-dropdown"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-dropdown"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+            <ul
+              class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0"
+            >
+              <li>
+                <a
+                  href="/index.html"
+                  class="block py-2 px-3 text-white rounded-sm md:p-0 hover:bg-[#1f4123] md:hover:text-[#FFD700]"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <button
+                  id="dropdownNavbarLink"
+                  data-dropdown-toggle="dropdownNavbar"
+                  class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 md:w-auto dark:text-white md:dark:hover:text-[#FFD700] dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                >
+                  Admission<svg
+                    class="w-2.5 h-2.5 ms-2.5"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m1 1 4 4 4-4"
+                    />
+                  </svg>
+                </button>
+                <!-- Dropdown menu -->
+                <div
+                  id="dropdownNavbar"
+                  class="z-10 hidden font-normal bg-white divide-y divide-gray-100 shadow-sm w-44"
+                >
+                  <ul
+                    class="dropdownlist"
+                    aria-labelledby="dropdownLargeButton"
+                  >
+                    <li>
+                      <a
+                        href="/creche.html"
+                        class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white"
+                        >Creche</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="/pre-school.html"
+                        class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white"
+                        >Pre-School</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="primary.html"
+                        class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white"
+                        >Primary</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="college.html"
+                        class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white"
+                        >College</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a
+                  href="/about.html"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-[#1f4123] md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/gallery.html"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/contact.html"
+                  class="block py-2 px-3 text-gray-900 rounded-sm text-white bg-[#FFD700] rounded-sm md:bg-transparent md:text-[#FFD700] md:p-0 md:dark:text-[#FFD700] dark:bg-[#FFD700] md:dark:bg-transparent"
+                  >Contact</a
+                >
+              </li>
             </ul>
-            </div>
+          </div>
         </div>
-        </nav>
-
+      </nav>
     </header>
 
-  <!-- CONTACT PAGE -->
-   <section class="get-in-touch section bg-[#8c1420] py-16">
-  <div class="container mx-auto px-4">
-    <h2 class="section-title text-white text-3xl md:text-4xl font-bold mb-8 text-center">
-      Get in Touch
-    </h2>
-    <p class="text-white text-center mb-12">
-      Have questions or want to know more? Reach out to us and we’ll get back to you promptly.
-    </p>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <!-- Contact Info -->
-      <div class="text-white space-y-4">
-        <p><strong>Address:</strong> Plot 2-3 Denro-isashi Rd, Ojodu Abiodun, Ojodu Berger Axis</p>
-        <p><strong>Email:</strong> penielfieldpschools@gmail.com </p>
-        <p><strong>Phone:</strong> 090-256-36282 | 081-054-30843</p>
-        <p><strong>Follow us:</strong> 
-          <a href="https://web.facebook.com/penielfieldsng" class="underline">Facebook</a>, 
-          <a href="https://www.instagram.com/penielfieldsng">Instagram</a>, 
-          <a href="https://www.linkedin.com/company/penielfield-schools/">LinkedIn</a>
+    <!-- CONTACT PAGE -->
+    <section class="get-in-touch section bg-[#8c1420] py-16">
+      <div class="container mx-auto px-4">
+        <h2
+          class="section-title text-white text-3xl md:text-4xl font-bold mb-8 text-center"
+        >
+          Get in Touch
+        </h2>
+        <p class="text-white text-center mb-12">
+          Have questions or want to know more? Reach out to us and we’ll get
+          back to you promptly.
         </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Contact Info -->
+          <div class="text-white space-y-4">
+            <p>
+              <strong>Address:</strong> Plot 2-3 Denro-isashi Rd, Ojodu Abiodun,
+              Ojodu Berger Axis
+            </p>
+            <p><strong>Email:</strong> penielfieldpschools@gmail.com</p>
+            <p><strong>Phone:</strong> 090-256-36282 | 081-054-30843</p>
+            <p>
+              <strong>Follow us:</strong>
+              <a
+                href="https://web.facebook.com/penielfieldsng"
+                class="underline"
+                >Facebook</a
+              >,
+              <a href="https://www.instagram.com/penielfieldsng">Instagram</a>,
+              <a href="https://www.linkedin.com/company/penielfield-schools/"
+                >LinkedIn</a
+              >
+            </p>
+          </div>
+
+          <!-- Contact Form -->
+          <form id="contactForm" class="bg-white p-6 shadow-md space-y-4">
+            <div>
+              <label class="block text-gray-700 font-medium mb-1" for="fullname"
+                >Full Name</label
+              >
+              <input
+                class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                type="text"
+                id="fullname"
+                placeholder="Your Full Name"
+                required
+              />
+            </div>
+
+            <div>
+              <label
+                class="block text-gray-700 font-medium mb-1"
+                for="childname"
+                >Child’s Name</label
+              >
+              <input
+                class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                type="text"
+                id="childname"
+                placeholder="Your Child’s Name"
+                required
+              />
+            </div>
+
+            <div>
+              <label
+                class="block text-gray-700 font-medium mb-1"
+                for="intendedClass"
+                >Intended Class</label
+              >
+              <input
+                class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                type="text"
+                id="intendedClass"
+                placeholder="e.g. Primary 3, JSS 1"
+                required
+              />
+            </div>
+
+            <div>
+              <label class="block text-gray-700 font-medium mb-1" for="age"
+                >Age</label
+              >
+              <input
+                class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                type="number"
+                id="age"
+                placeholder="Child’s Age"
+                required
+              />
+            </div>
+
+            <div>
+              <label class="block text-gray-700 font-medium mb-1" for="phone"
+                >Phone Number</label
+              >
+              <input
+                class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                type="tel"
+                id="phone"
+                placeholder="Your Phone Number"
+                required
+              />
+            </div>
+
+            <div>
+              <label class="block text-gray-700 font-medium mb-1" for="message"
+                >Message</label
+              >
+              <textarea
+                class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                id="message"
+                rows="4"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="bg-yellow-400 text-[#8c1420] font-bold py-2 px-6 rounded hover:bg-yellow-500 transition"
+            >
+              Send Message
+            </button>
+          </form>
+
+          <script>
+            document
+              .getElementById("contactForm")
+              .addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                let fullname = document.getElementById("fullname").value;
+                let childname = document.getElementById("childname").value;
+                let intendedClass =
+                  document.getElementById("intendedClass").value;
+                let age = document.getElementById("age").value;
+                let phone = document.getElementById("phone").value;
+                let message = document.getElementById("message").value;
+
+                // Format the WhatsApp message
+                let whatsappMessage = `Hello, my name is ${fullname}%0AChild's Name: ${childname}%0AIntended Class: ${intendedClass}%0AAge: ${age}%0APhone: ${phone}%0AMessage: ${message}`;
+
+                // Target number (with country code for Nigeria: +234)
+                let phoneNumber = "2348105430843";
+
+                // Redirect to WhatsApp chat
+                window.open(
+                  `https://wa.me/${phoneNumber}?text=${whatsappMessage}`,
+                  "_blank",
+                );
+              });
+          </script>
+        </div>
       </div>
-
-      <!-- Contact Form -->
-      <form id="contactForm" class="bg-white p-6 shadow-md space-y-4">
-        <div>
-          <label class="block text-gray-700 font-medium mb-1" for="fullname">Full Name</label>
-          <input class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
-                 type="text" id="fullname" placeholder="Your Full Name" required>
+    </section>
+    <section id="contact" class="py-16 bg-white">
+      <div class="container mx-auto px-6">
+        <!-- Google Map Embed -->
+        <div class="">
+          <h3 class="text-2xl font-semibold text-[#7B1E1E] mb-6 text-center">
+            Our Location
+          </h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.927469888108!2d3.3763788000000003!3d6.6559118999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b955f0063659b%3A0x6ef41ab068ae4373!2sPenielfield%20Private%20Schools!5e0!3m2!1sen!2sng!4v1759054883934!5m2!1sen!2sng"
+            width="100%"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
         </div>
-
-        <div>
-          <label class="block text-gray-700 font-medium mb-1" for="childname">Child’s Name</label>
-          <input class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
-                 type="text" id="childname" placeholder="Your Child’s Name" required>
-        </div>
-
-        <div>
-          <label class="block text-gray-700 font-medium mb-1" for="intendedClass">Intended Class</label>
-          <input class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
-                 type="text" id="intendedClass" placeholder="e.g. Primary 3, JSS 1" required>
-        </div>
-
-        <div>
-          <label class="block text-gray-700 font-medium mb-1" for="age">Age</label>
-          <input class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
-                 type="number" id="age" placeholder="Child’s Age" required>
-        </div>
-
-        <div>
-          <label class="block text-gray-700 font-medium mb-1" for="phone">Phone Number</label>
-          <input class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
-                 type="tel" id="phone" placeholder="Your Phone Number" required>
-        </div>
-
-        <div>
-          <label class="block text-gray-700 font-medium mb-1" for="message">Message</label>
-          <textarea class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400" 
-                    id="message" rows="4" placeholder="Your Message" required></textarea>
-        </div>
-
-        <button type="submit" class="bg-yellow-400 text-[#8c1420] font-bold py-2 px-6 rounded hover:bg-yellow-500 transition">
-          Send Message
-        </button>
-      </form>
-
-      <script>
-        document.getElementById("contactForm").addEventListener("submit", function(event) {
-          event.preventDefault();
-
-          let fullname = document.getElementById("fullname").value;
-          let childname = document.getElementById("childname").value;
-          let intendedClass = document.getElementById("intendedClass").value;
-          let age = document.getElementById("age").value;
-          let phone = document.getElementById("phone").value;
-          let message = document.getElementById("message").value;
-
-          // Format the WhatsApp message
-          let whatsappMessage = `Hello, my name is ${fullname}%0AChild's Name: ${childname}%0AIntended Class: ${intendedClass}%0AAge: ${age}%0APhone: ${phone}%0AMessage: ${message}`;
-
-          // Target number (with country code for Nigeria: +234)
-          let phoneNumber = "2348105430843";
-
-          // Redirect to WhatsApp chat
-          window.open(`https://wa.me/${phoneNumber}?text=${whatsappMessage}`, "_blank");
-        });
-      </script>
-    </div>
-  </div>
-</section>
-<section id="contact" class="py-16 bg-white">
-  <div class="container mx-auto px-6">
-    <!-- Google Map Embed -->
-    <div class="">
-      <h3 class="text-2xl font-semibold text-[#7B1E1E] mb-6 text-center">Our Location</h3>
-      <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.927469888108!2d3.3763788000000003!3d6.6559118999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b955f0063659b%3A0x6ef41ab068ae4373!2sPenielfield%20Private%20Schools!5e0!3m2!1sen!2sng!4v1759054883934!5m2!1sen!2sng"
-        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
-      </iframe>
-    </div>
-  </div>
-</section>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            
-            
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg" alt="">
-                </div>
-                <div class="footer-section">
-                    <h4>Contact Information</h4>
-                    <p class="mb-2">📍 Plot 2-3 Denro-isashi Rd, Ojodu Abiodun, Ojodu Berger Axis</p>
-                    <p class="mb-2">📞 081-054-30843 | 090-256-36282 </p>
-                    <p class="mb-2">✉️ penielfieldpschools@gmail.com</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <a href="/about.html">About Us</a>
-                    <a href="#academics">Academics</a>
-                    <a href="#admissions">Admissions</a>
-                    <a href="/gallery.html">Gallery</a>
-                </div>
-                <div class="footer-section">
-                    <h4>Follow Us</h4>
-                    <a href="https://web.facebook.com/penielfieldsng">Facebook</a>
-                    <a href="https://www.instagram.com/penielfieldsng">Instagram</a>
-                    <a href="https://www.linkedin.com/company/penielfield-schools/">LinkedIn</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Penielfield Private Schools. All Rights Reserved | <span class="font-s text-gray-300">designed by <a href="https://bbyprogrammer.netlify.app/">Bbyprogrammer</a></span></p>
-            </div>
+      <div class="container">
+        <div class="footer-top">
+          <!-- Brand -->
+          <div class="footer-brand">
+            <img
+              src="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg"
+              alt="Penielfield Private Schools Logo"
+            />
+            <p class="footer-brand-text">
+              Raising confident, excellent, and morally grounded learners in a
+              safe and inspiring environment.
+            </p>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>
+              📍 Plot 2-3 Denro-Isashi Rd, Ojodu Abiodun, Ojodu Berger Axis,
+              Lagos
+            </p>
+            <p>📞 081-054-30843 | 090-256-36282</p>
+            <p>✉️ penielfieldpschools@gmail.com</p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <a href="/about.html">About Us</a>
+            <a href="#academics">Academics</a>
+            <a href="#admissions">Admissions</a>
+            <a href="/gallery.html">Gallery</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <!-- Social -->
+          <div class="footer-section">
+            <h4>Connect With Us</h4>
+            <a href="https://web.facebook.com/penielfieldsng" target="_blank"
+              >Facebook</a
+            >
+            <a href="https://www.instagram.com/penielfieldsng" target="_blank"
+              >Instagram</a
+            >
+            <a
+              href="https://www.linkedin.com/company/penielfield-schools/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </div>
         </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Penielfield Private Schools. All Rights Reserved.</p>
+          <p class="footer-credit">
+            Designed by
+            <a href="https://bbyprogrammer.netlify.app/" target="_blank"
+              >Bbyprogrammer</a
+            >
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
             });
+          }
         });
+      });
 
-        // Add scroll effect to navbar
-        window.addEventListener('scroll', function() {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 100) {
-                navbar.style.background = 'rgba(26, 87, 41, 0.95)';
-            } else {
-                navbar.style.background = 'var(--dark-green)';
-            }
-        });
+      // Add scroll effect to navbar
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 100) {
+          navbar.style.background = "rgba(26, 87, 41, 0.95)";
+        } else {
+          navbar.style.background = "var(--dark-green)";
+        }
+      });
     </script>
-</body>
+  </body>
 </html>

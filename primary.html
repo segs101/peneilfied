@@ -1,288 +1,479 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penifield Private Schools</title>
-    <link rel="icon" href="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="/styles.css">
+    <link
+      rel="icon"
+      href="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/styles.css" />
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Flowbite -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-    
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navigation -->
-  <!-- Navbar -->
+    <!-- Navbar -->
     <header class="sticky top-0 z-50">
-        <nav class="">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="/index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg" class="h-10" alt="Flowbite Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Penielfield </span>
-            </a>
-            <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                </svg>
-            </button>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
-                <li>
-                <a href="/index.html" class="block py-2 px-3 text-white rounded-sm md:p-0 hover:bg-[#1f4123] md:hover:text-[#FFD700]" aria-current="page">Home</a>
-                </li>
-                <li>
-                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm text-white bg-[#FFD700] rounded-sm md:bg-transparent md:text-[#FFD700] md:p-0 md:dark:text-[#FFD700] dark:bg-[#FFD700] md:dark:bg-transparent">Admission<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                    </svg></button>
-                    <!-- Dropdown menu -->
-                    <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100  shadow-sm w-44  ">
-                        <ul class="dropdownlist" aria-labelledby="dropdownLargeButton">
-                            <li>
-                                <a href="/creche.html" class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white">Creche</a>
-                            </li>
-                            <li>
-                                <a href="/pre-school.html" class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white">Pre-School</a>
-                            </li>
-                            <li>
-                                <a href="primary.html" class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white">Primary</a>
-                            </li>
-                            <li>
-                                <a href="college.html" class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white">College</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                <a href="/about.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-[#1f4123] md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-                </li>
-                <li>
-                <a href="/gallery.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Gallery</a>
-                </li>
-                <li>
-                <a href="/contact.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-                </li>
+      <nav class="">
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a
+            href="/index.html"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img
+              src="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg"
+              class="h-10"
+              alt="Flowbite Logo"
+            />
+            <span
+              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+              >Penielfield
+            </span>
+          </a>
+          <button
+            data-collapse-toggle="navbar-dropdown"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-dropdown"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+            <ul
+              class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0"
+            >
+              <li>
+                <a
+                  href="/index.html"
+                  class="block py-2 px-3 text-white rounded-sm md:p-0 hover:bg-[#1f4123] md:hover:text-[#FFD700]"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <button
+                  id="dropdownNavbarLink"
+                  data-dropdown-toggle="dropdownNavbar"
+                  class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm text-white bg-[#FFD700] rounded-sm md:bg-transparent md:text-[#FFD700] md:p-0 md:dark:text-[#FFD700] dark:bg-[#FFD700] md:dark:bg-transparent"
+                >
+                  Admission<svg
+                    class="w-2.5 h-2.5 ms-2.5"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m1 1 4 4 4-4"
+                    />
+                  </svg>
+                </button>
+                <!-- Dropdown menu -->
+                <div
+                  id="dropdownNavbar"
+                  class="z-10 hidden font-normal bg-white divide-y divide-gray-100 shadow-sm w-44"
+                >
+                  <ul
+                    class="dropdownlist"
+                    aria-labelledby="dropdownLargeButton"
+                  >
+                    <li>
+                      <a
+                        href="/creche.html"
+                        class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white"
+                        >Creche</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="/pre-school.html"
+                        class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white"
+                        >Pre-School</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="primary.html"
+                        class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white"
+                        >Primary</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="college.html"
+                        class="block px-4 py-2 hover:bg-[#1f4123] dark:hover:bg-[#1f4123] dark:hover:text-white"
+                        >College</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <a
+                  href="/about.html"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-[#1f4123] md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/gallery.html"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/contact.html"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#FFD700] md:p-0 dark:text-white md:dark:hover:text-[#FFD700] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Contact</a
+                >
+              </li>
             </ul>
-            </div>
+          </div>
         </div>
-        </nav>
-
+      </nav>
     </header>
 
-  <!-- Hero Section -->
-  <div id="default-carousel" class="relative w-full" data-carousel="slide">
-    <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden md:h-96">
-      <!-- Item 1 -->
-      <div class="hidden duration-1000 ease-in-out " data-carousel-item>
-        <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1758230312/IMG_7474_ezmxrp.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 z-0" alt="...">
-        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center z-10  py-10">
-          <div class="text-center text-white px-4">
-            <h1 class="text-3xl md:text-5xl font-bold mb-4">Join Our Primary Family</h1>
-            <p class="text-lg md:text-xl">Learning In God's Light</p>
-          </div>
-          <div class="cta-buttons mt-6">
-            <a href="/contact.html" class=" text-white px-6 py-3  bg-[#14532D] transition">
-              Enroll Now
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Item 2 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="https://res.cloudinary.com/dv5z3csov/image/upload/v1758230312/IMG_7474_ezmxrp.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center z-10  py-10">
-          <div class="text-center text-white px-4">
-            <h1 class="text-3xl md:text-5xl font-bold mb-4">Join Our Primary Family</h1>
-            <p class="text-lg md:text-xl">Learning In God's Light</p>
-          </div>
-          <div class="cta-buttons mt-6">
-            <a href="/contact.html" class=" text-white px-6 py-3  bg-[#14532D] transition">
-              Enroll Now
-            </a>
+    <!-- Hero Section -->
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+      <!-- Carousel wrapper -->
+      <div class="relative h-56 overflow-hidden md:h-96">
+        <!-- Item 1 -->
+        <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+          <img
+            src="https://res.cloudinary.com/dv5z3csov/image/upload/v1758230312/IMG_7474_ezmxrp.jpg"
+            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 z-0"
+            alt="..."
+          />
+          <div
+            class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center z-10 py-10"
+          >
+            <div class="text-center text-white px-4">
+              <h1 class="text-3xl md:text-5xl font-bold mb-4">
+                Join Our Primary Family
+              </h1>
+              <p class="text-lg md:text-xl">Learning In God's Light</p>
+            </div>
+            <div class="cta-buttons mt-6">
+              <a
+                href="/contact.html"
+                class="text-white px-6 py-3 bg-[#14532D] transition"
+              >
+                Enroll Now
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- Item 3 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
-        <img src="img/primary 3.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center z-10  py-10">
-          <div class="text-center text-white px-4">
-            <h1 class="text-3xl md:text-5xl font-bold mb-4">Join Our Primary Family</h1>
-            <p class="text-lg md:text-xl">Learning In God's Light</p>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="https://res.cloudinary.com/dv5z3csov/image/upload/v1758230312/IMG_7474_ezmxrp.jpg"
+            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="..."
+          />
+          <div
+            class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center z-10 py-10"
+          >
+            <div class="text-center text-white px-4">
+              <h1 class="text-3xl md:text-5xl font-bold mb-4">
+                Join Our Primary Family
+              </h1>
+              <p class="text-lg md:text-xl">Learning In God's Light</p>
+            </div>
+            <div class="cta-buttons mt-6">
+              <a
+                href="/contact.html"
+                class="text-white px-6 py-3 bg-[#14532D] transition"
+              >
+                Enroll Now
+              </a>
+            </div>
           </div>
-          <div class="cta-buttons mt-6">
-            <a href="/contact.html" class=" text-white px-6 py-3  bg-[#14532D] transition">
-              Enroll Now
-            </a>
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="img/primary 3.png"
+            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="..."
+          />
+          <div
+            class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center z-10 py-10"
+          >
+            <div class="text-center text-white px-4">
+              <h1 class="text-3xl md:text-5xl font-bold mb-4">
+                Join Our Primary Family
+              </h1>
+              <p class="text-lg md:text-xl">Learning In God's Light</p>
+            </div>
+            <div class="cta-buttons mt-6">
+              <a
+                href="/contact.html"
+                class="text-white px-6 py-3 bg-[#14532D] transition"
+              >
+                Enroll Now
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <section class="py-16 bg-gray-50">
-  <div class="container mx-auto px-6">
-    <h2 class="text-3xl md:text-4xl font-bold text-[#1D3B2A] mb-4">Primary School</h2>
-    <p class="text-gray-600 mb-8 max-w-2xl">
-      Empowering Young Minds to Think, Create, and Lead. At Penielfield Private Schools, 
-      our Primary School (Years 1–6) is where curiosity meets capability. With a curriculum 
-      blending Nigerian, British, and American standards, pupils are academically equipped, 
-      globally aware, and future-ready. Every lesson sparks inquiry, creativity, and collaboration, 
-      shaping confident thinkers and leaders.
-    </p>
-
-    <div class="bg-white p-6 rounded-lg shadow-md mb-8">
-      <h3 class="text-2xl font-semibold mb-3 text-[#1D3B2A]">What Makes Our Primary School Exceptional</h3>
-      <ul class="list-disc pl-6 text-gray-600 space-y-2">
-        <li>📖 Robust curriculum covering English, Math, Science, History, Geography, Creative Writing, and more</li>
-        <li>🎨 Specialist instruction in Music, Languages, ICT, P.E., and Visual Arts</li>
-        <li>🧠 Balanced focus on cognitive, psychomotor, and affective development</li>
-        <li>🗣 Public speaking and debate programs to build confidence</li>
-        <li>🧪 Enrichment through Spelling Bees, Math Olympiads, Science Fairs, and Creative Writing contests</li>
-        <li>🧩 Co-curricular clubs: STEM, Young Chef, Taekwondo, Drama, Robotics, and Entrepreneurship</li>
-        <li>👫 Character education promoting empathy, leadership, and teamwork</li>
-        <li>🧼 Safe, inclusive, and stimulating learning spaces</li>
-        <li>📋 Continuous assessment and progress tracking with feedback</li>
-        <li>🌍 Global perspective preparing students for international opportunities</li>
-      </ul>
-    </div>
-
-    
-
-    <a href="/apply" class="inline-block bg-[#1D3B2A] text-white px-6 py-3  hover:bg-[#14532D] transition">
-      Enroll Now
-    </a>
-  </div>
-</section>
-
-
-  <!-- FAQ -->
-<section id="primary-faqs" class="py-12 bg-gray-50">
-  <div class="max-w-4xl mx-auto px-4">
-    <h2 class="text-3xl font-bold text-center text-[#1D3B2A] mb-8">
-      Primary School – FAQs
-    </h2>
-
-    <div class="space-y-4">
-      <!-- FAQ 1 -->
-      <details class="bg-white rounded-sm shadow p-4">
-        <summary class="cursor-pointer text-lg font-semibold text-gray-800">
-          Q1: What curriculum do you follow in Primary School?
-        </summary>
-        <p class="mt-2 text-gray-600">
-          We offer a <strong>hybrid curriculum</strong> combining Nigerian, British, 
-          and American standards to prepare students for global success.
+    <section class="py-16 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-bold text-[#1D3B2A] mb-4">
+          Primary School
+        </h2>
+        <p class="text-gray-600 mb-8 max-w-2xl">
+          Empowering Young Minds to Think, Create, and Lead. At Penielfield
+          Private Schools, our Primary School (Years 1–6) is where curiosity
+          meets capability. With a curriculum blending Nigerian, British, and
+          American standards, pupils are academically equipped, globally aware,
+          and future-ready. Every lesson sparks inquiry, creativity, and
+          collaboration, shaping confident thinkers and leaders.
         </p>
-      </details>
 
-      <!-- FAQ 2 -->
-      <details class="bg-white rounded-sm shadow p-4">
-        <summary class="cursor-pointer text-lg font-semibold text-gray-800">
-          Q2: What subjects are taught?
-        </summary>
-        <p class="mt-2 text-gray-600">
-          Core subjects include <strong>English, Math, Science, History, Geography</strong>, 
-          plus <strong>Creative Writing, ICT, Music, P.E., and Languages</strong>.
-        </p>
-      </details>
+        <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+          <h3 class="text-2xl font-semibold mb-3 text-[#1D3B2A]">
+            What Makes Our Primary School Exceptional
+          </h3>
+          <ul class="list-disc pl-6 text-gray-600 space-y-2">
+            <li>
+              📖 Robust curriculum covering English, Math, Science, History,
+              Geography, Creative Writing, and more
+            </li>
+            <li>
+              🎨 Specialist instruction in Music, Languages, ICT, P.E., and
+              Visual Arts
+            </li>
+            <li>
+              🧠 Balanced focus on cognitive, psychomotor, and affective
+              development
+            </li>
+            <li>🗣 Public speaking and debate programs to build confidence</li>
+            <li>
+              🧪 Enrichment through Spelling Bees, Math Olympiads, Science
+              Fairs, and Creative Writing contests
+            </li>
+            <li>
+              🧩 Co-curricular clubs: STEM, Young Chef, Taekwondo, Drama,
+              Robotics, and Entrepreneurship
+            </li>
+            <li>
+              👫 Character education promoting empathy, leadership, and teamwork
+            </li>
+            <li>🧼 Safe, inclusive, and stimulating learning spaces</li>
+            <li>
+              📋 Continuous assessment and progress tracking with feedback
+            </li>
+            <li>
+              🌍 Global perspective preparing students for international
+              opportunities
+            </li>
+          </ul>
+        </div>
 
-      <!-- FAQ 3 -->
-      <details class="bg-white rounded-sm shadow p-4">
-        <summary class="cursor-pointer text-lg font-semibold text-gray-800">
-          Q3: Are there extracurricular activities?
-        </summary>
-        <p class="mt-2 text-gray-600">
-          Yes! Pupils can join <strong>STEM Club, Debate, Young Chef, Drama, Taekwondo</strong>, and more.
-        </p>
-      </details>
+        <a
+          href="/apply"
+          class="inline-block bg-[#1D3B2A] text-white px-6 py-3 hover:bg-[#14532D] transition"
+        >
+          Enroll Now
+        </a>
+      </div>
+    </section>
 
-      <!-- FAQ 4 -->
-      <details class="bg-white rounded-sm shadow p-4">
-        <summary class="cursor-pointer text-lg font-semibold text-gray-800">
-          Q4: How do you assess student progress?
-        </summary>
-        <p class="mt-2 text-gray-600">
-          We use <strong>continuous assessment, termly exams, and personalized feedback</strong> 
-          to monitor academic and personal growth.
-        </p>
-      </details>
+    <!-- FAQ -->
+    <section id="primary-faqs" class="py-12 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-[#1D3B2A] mb-8">
+          Primary School – FAQs
+        </h2>
 
-      <!-- FAQ 5 -->
-      <details class="bg-white rounded-sm shadow p-4">
-        <summary class="cursor-pointer text-lg font-semibold text-gray-800">
-          Q5: Do you offer support for children with learning differences?
-        </summary>
-        <p class="mt-2 text-gray-600">
-          Yes. We provide <strong>individualized support plans, learning aides</strong>, 
-          and collaborate with specialists when needed.
-        </p>
-      </details>
-    </div>
-  </div>
-</section>
+        <div class="space-y-4">
+          <!-- FAQ 1 -->
+          <details class="bg-white rounded-sm shadow p-4">
+            <summary class="cursor-pointer text-lg font-semibold text-gray-800">
+              Q1: What curriculum do you follow in Primary School?
+            </summary>
+            <p class="mt-2 text-gray-600">
+              We offer a <strong>hybrid curriculum</strong> combining Nigerian,
+              British, and American standards to prepare students for global
+              success.
+            </p>
+          </details>
 
+          <!-- FAQ 2 -->
+          <details class="bg-white rounded-sm shadow p-4">
+            <summary class="cursor-pointer text-lg font-semibold text-gray-800">
+              Q2: What subjects are taught?
+            </summary>
+            <p class="mt-2 text-gray-600">
+              Core subjects include
+              <strong>English, Math, Science, History, Geography</strong>, plus
+              <strong>Creative Writing, ICT, Music, P.E., and Languages</strong
+              >.
+            </p>
+          </details>
+
+          <!-- FAQ 3 -->
+          <details class="bg-white rounded-sm shadow p-4">
+            <summary class="cursor-pointer text-lg font-semibold text-gray-800">
+              Q3: Are there extracurricular activities?
+            </summary>
+            <p class="mt-2 text-gray-600">
+              Yes! Pupils can join
+              <strong>STEM Club, Debate, Young Chef, Drama, Taekwondo</strong>,
+              and more.
+            </p>
+          </details>
+
+          <!-- FAQ 4 -->
+          <details class="bg-white rounded-sm shadow p-4">
+            <summary class="cursor-pointer text-lg font-semibold text-gray-800">
+              Q4: How do you assess student progress?
+            </summary>
+            <p class="mt-2 text-gray-600">
+              We use
+              <strong
+                >continuous assessment, termly exams, and personalized
+                feedback</strong
+              >
+              to monitor academic and personal growth.
+            </p>
+          </details>
+
+          <!-- FAQ 5 -->
+          <details class="bg-white rounded-sm shadow p-4">
+            <summary class="cursor-pointer text-lg font-semibold text-gray-800">
+              Q5: Do you offer support for children with learning differences?
+            </summary>
+            <p class="mt-2 text-gray-600">
+              Yes. We provide
+              <strong>individualized support plans, learning aides</strong>, and
+              collaborate with specialists when needed.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            
-            
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg" alt="">
-                </div>
-                <div class="footer-section">
-                    <h4>Contact Information</h4>
-                    <p class="mb-2">📍 Plot 2-3 Denro-isashi Rd, Ojodu Abiodun, Ojodu Berger Axis</p>
-                    <p class="mb-2">📞 081-054-30843 | 090-256-36282 </p>
-                    <p class="mb-2">✉️ penielfieldpschools@gmail.com</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <a href="/about.html">About Us</a>
-                    <a href="#academics">Academics</a>
-                    <a href="#admissions">Admissions</a>
-                    <a href="/gallery.html">Gallery</a>
-                </div>
-                <div class="footer-section">
-                    <h4>Follow Us</h4>
-                    <a href="https://web.facebook.com/penielfieldsng">Facebook</a>
-                    <a href="https://www.instagram.com/penielfieldsng">Instagram</a>
-                    <a href="https://www.linkedin.com/company/penielfield-schools/">LinkedIn</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Penielfield Private Schools. All Rights Reserved | <span class="font-s text-gray-300">designed by <a href="https://bbyprogrammer.netlify.app/">Bbyprogrammer</a></span></p>
-            </div>
+      <div class="container">
+        <div class="footer-top">
+          <!-- Brand -->
+          <div class="footer-brand">
+            <img
+              src="img/WhatsApp Image 2025-09-18 at 22.37.02_46693862.jpg"
+              alt="Penielfield Private Schools Logo"
+            />
+            <p class="footer-brand-text">
+              Raising confident, excellent, and morally grounded learners in a
+              safe and inspiring environment.
+            </p>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>
+              📍 Plot 2-3 Denro-Isashi Rd, Ojodu Abiodun, Ojodu Berger Axis,
+              Lagos
+            </p>
+            <p>📞 081-054-30843 | 090-256-36282</p>
+            <p>✉️ penielfieldpschools@gmail.com</p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <a href="/about.html">About Us</a>
+            <a href="#academics">Academics</a>
+            <a href="#admissions">Admissions</a>
+            <a href="/gallery.html">Gallery</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <!-- Social -->
+          <div class="footer-section">
+            <h4>Connect With Us</h4>
+            <a href="https://web.facebook.com/penielfieldsng" target="_blank"
+              >Facebook</a
+            >
+            <a href="https://www.instagram.com/penielfieldsng" target="_blank"
+              >Instagram</a
+            >
+            <a
+              href="https://www.linkedin.com/company/penielfield-schools/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </div>
         </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Penielfield Private Schools. All Rights Reserved.</p>
+          <p class="footer-credit">
+            Designed by
+            <a href="https://bbyprogrammer.netlify.app/" target="_blank"
+              >Bbyprogrammer</a
+            >
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
             });
+          }
         });
+      });
 
-        // Add scroll effect to navbar
-        window.addEventListener('scroll', function() {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 100) {
-                navbar.style.background = 'rgba(26, 87, 41, 0.95)';
-            } else {
-                navbar.style.background = 'var(--dark-green)';
-            }
-        });
+      // Add scroll effect to navbar
+      window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 100) {
+          navbar.style.background = "rgba(26, 87, 41, 0.95)";
+        } else {
+          navbar.style.background = "var(--dark-green)";
+        }
+      });
     </script>
-</body>
+  </body>
 </html>

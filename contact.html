@@ -10,10 +10,15 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="/styles.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+/>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Flowbite -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js">        </script>
+    
   </head>
   <body>
     <!-- Navigation -->
@@ -163,163 +168,255 @@
     </header>
 
     <!-- CONTACT PAGE -->
-    <section class="get-in-touch section bg-[#8c1420] py-16">
-      <div class="container mx-auto px-4">
-        <h2
-          class="section-title text-white text-3xl md:text-4xl font-bold mb-8 text-center"
+    <!-- CONTACT -->
+<section
+  id="contact"
+  class="bg-[#8c1420] grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start px-6 py-20 md:px-12 lg:px-20"
+>
+  <!-- Contact Info -->
+  <div class="fade-in">
+    <div
+      class="text-[#D4AF37] uppercase tracking-[0.15em] text-sm font-semibold"
+    >
+      Get In Touch
+    </div>
+
+    <h2
+      class="mt-3 text-white text-4xl md:text-5xl font-serif leading-tight"
+    >
+      We'd Love to <em class="italic text-[#F1D48B]">Meet You</em>
+    </h2>
+
+    <p class="text-white/60 leading-8 mt-5 mb-10 max-w-xl">
+      Our doors are always open to prospective families and partners. Reach out
+      to begin your child's journey at Penielfield Private Schools.
+    </p>
+
+    <div class="flex flex-col gap-5">
+      <!-- Address -->
+      <div class="flex gap-4 items-start">
+        <div
+          class="w-10 h-10 rounded-lg bg-[rgba(201,151,58,0.15)] border border-[rgba(201,151,58,0.2)] flex items-center justify-center text-base shrink-0 text-[#F1D48B]"
         >
-          Get in Touch
-        </h2>
-        <p class="text-white text-center mb-12">
-          Have questions or want to know more? Reach out to us and we’ll get
-          back to you promptly.
-        </p>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <!-- Contact Info -->
-          <div class="text-white space-y-4">
-            <p>
-              <strong>Address:</strong> Plot 2-3 Denro-isashi Rd, Ojodu Abiodun,
-              Ojodu Berger Axis
-            </p>
-            <p><strong>Email:</strong> penielfieldpschools@gmail.com</p>
-            <p><strong>Phone:</strong> 090-256-36282 | 081-054-30843</p>
-            <p>
-              <strong>Follow us:</strong>
-              <a
-                href="https://web.facebook.com/penielfieldsng"
-                class="underline"
-                >Facebook</a
-              >,
-              <a href="https://www.instagram.com/penielfieldsng">Instagram</a>,
-              <a href="https://www.linkedin.com/company/penielfield-schools/"
-                >LinkedIn</a
-              >
-            </p>
-          </div>
-
-          <!-- Contact Form -->
-          <form id="contactForm" class="bg-white p-6 shadow-md space-y-4">
-            <div>
-              <label class="block text-gray-700 font-medium mb-1" for="fullname"
-                >Full Name</label
-              >
-              <input
-                class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                type="text"
-                id="fullname"
-                placeholder="Your Full Name"
-                required
-              />
-            </div>
-
-            <div>
-              <label
-                class="block text-gray-700 font-medium mb-1"
-                for="childname"
-                >Child’s Name</label
-              >
-              <input
-                class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                type="text"
-                id="childname"
-                placeholder="Your Child’s Name"
-                required
-              />
-            </div>
-
-            <div>
-              <label
-                class="block text-gray-700 font-medium mb-1"
-                for="intendedClass"
-                >Intended Class</label
-              >
-              <input
-                class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                type="text"
-                id="intendedClass"
-                placeholder="e.g. Primary 3, JSS 1"
-                required
-              />
-            </div>
-
-            <div>
-              <label class="block text-gray-700 font-medium mb-1" for="age"
-                >Age</label
-              >
-              <input
-                class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                type="number"
-                id="age"
-                placeholder="Child’s Age"
-                required
-              />
-            </div>
-
-            <div>
-              <label class="block text-gray-700 font-medium mb-1" for="phone"
-                >Phone Number</label
-              >
-              <input
-                class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                type="tel"
-                id="phone"
-                placeholder="Your Phone Number"
-                required
-              />
-            </div>
-
-            <div>
-              <label class="block text-gray-700 font-medium mb-1" for="message"
-                >Message</label
-              >
-              <textarea
-                class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                id="message"
-                rows="4"
-                placeholder="Your Message"
-                required
-              ></textarea>
-            </div>
-
-            <button
-              type="submit"
-              class="bg-yellow-400 text-[#8c1420] font-bold py-2 px-6 rounded hover:bg-yellow-500 transition"
-            >
-              Send Message
-            </button>
-          </form>
-
-          <script>
-            document
-              .getElementById("contactForm")
-              .addEventListener("submit", function (event) {
-                event.preventDefault();
-
-                let fullname = document.getElementById("fullname").value;
-                let childname = document.getElementById("childname").value;
-                let intendedClass =
-                  document.getElementById("intendedClass").value;
-                let age = document.getElementById("age").value;
-                let phone = document.getElementById("phone").value;
-                let message = document.getElementById("message").value;
-
-                // Format the WhatsApp message
-                let whatsappMessage = `Hello, my name is ${fullname}%0AChild's Name: ${childname}%0AIntended Class: ${intendedClass}%0AAge: ${age}%0APhone: ${phone}%0AMessage: ${message}`;
-
-                // Target number (with country code for Nigeria: +234)
-                let phoneNumber = "2348105430843";
-
-                // Redirect to WhatsApp chat
-                window.open(
-                  `https://wa.me/${phoneNumber}?text=${whatsappMessage}`,
-                  "_blank",
-                );
-              });
-          </script>
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <div>
+          <strong class="block text-sm text-white/50 font-medium mb-1"
+            >Address</strong
+          >
+          <p class="text-sm md:text-base text-white">
+            Plot 2-3 Denro-Isashi Rd, Ojodu Abiodun, Ojodu Berger Axis, Lagos
+          </p>
         </div>
       </div>
-    </section>
+
+      <!-- Phone -->
+      <div class="flex gap-4 items-start">
+        <div
+          class="w-10 h-10 rounded-lg bg-[rgba(201,151,58,0.15)] border border-[rgba(201,151,58,0.2)] flex items-center justify-center text-base shrink-0 text-[#F1D48B]"
+        >
+          <i class="fa-solid fa-phone"></i>
+        </div>
+        <div>
+          <strong class="block text-sm text-white/50 font-medium mb-1"
+            >Phone</strong
+          >
+          <p class="text-sm md:text-base text-white">
+            090-256-36282 | 081-054-30843
+          </p>
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="flex gap-4 items-start">
+        <div
+          class="w-10 h-10 rounded-lg bg-[rgba(201,151,58,0.15)] border border-[rgba(201,151,58,0.2)] flex items-center justify-center text-base shrink-0 text-[#F1D48B]"
+        >
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div>
+          <strong class="block text-sm text-white/50 font-medium mb-1"
+            >Email</strong
+          >
+          <p class="text-sm md:text-base text-white">
+            penielfieldpschools@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Links -->
+    <div class="flex gap-3 mt-8">
+      <a
+        href="https://web.facebook.com/penielfieldsng"
+        title="Facebook"
+        class="w-10 h-10 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center text-white text-sm no-underline transition hover:bg-[rgba(201,151,58,0.15)] hover:border-[rgba(201,151,58,0.3)]"
+      >
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a
+        href="https://www.instagram.com/penielfieldsng"
+        title="Instagram"
+        class="w-10 h-10 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center text-white text-sm no-underline transition hover:bg-[rgba(201,151,58,0.15)] hover:border-[rgba(201,151,58,0.3)]"
+      >
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/company/penielfield-schools/"
+        title="LinkedIn"
+        class="w-10 h-10 rounded-lg bg-white/10 border border-white/10 flex items-center justify-center text-white text-sm no-underline transition hover:bg-[rgba(201,151,58,0.15)] hover:border-[rgba(201,151,58,0.3)]"
+      >
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Contact Form -->
+  <div
+    class="fade-in fade-in-delay bg-white/5 border border-white/10 rounded-2xl p-8 md:p-10"
+  >
+    <h3 class="text-white font-serif text-2xl mb-8">Apply for Admission</h3>
+
+    <form id="contactForm">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="flex flex-col gap-2 mb-4">
+          <label
+            class="text-xs font-semibold text-white/50 tracking-[0.06em] uppercase"
+            for="fullname"
+          >
+            Parent Full Name
+          </label>
+          <input
+            type="text"
+            id="fullname"
+            placeholder="Your full name"
+            required
+            class="bg-white/10 border border-white/15 text-white rounded-lg px-4 py-3 text-sm outline-none focus:border-[rgba(201,151,58,0.5)] placeholder:text-white/30"
+          />
+        </div>
+
+        <div class="flex flex-col gap-2 mb-4">
+          <label
+            class="text-xs font-semibold text-white/50 tracking-[0.06em] uppercase"
+            for="childname"
+          >
+            Child's Name
+          </label>
+          <input
+            type="text"
+            id="childname"
+            placeholder="Child's full name"
+            required
+            class="bg-white/10 border border-white/15 text-white rounded-lg px-4 py-3 text-sm outline-none focus:border-[rgba(201,151,58,0.5)] placeholder:text-white/30"
+          />
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="flex flex-col gap-2 mb-4">
+          <label
+            class="text-xs font-semibold text-white/50 tracking-[0.06em] uppercase"
+            for="intendedClass"
+          >
+            Intended Class
+          </label>
+          <select
+            id="intendedClass"
+            required
+            class="bg-white/10 border border-white/15 text-white rounded-lg px-4 py-3 text-sm outline-none focus:border-[rgba(201,151,58,0.5)]"
+          >
+            <option value="" class="bg-[#8c1420] text-white">
+              Select program
+            </option>
+            <option class="bg-[#8c1420] text-white">Crèche</option>
+            <option class="bg-[#8c1420] text-white">Pre-School</option>
+            <option class="bg-[#8c1420] text-white">Primary School</option>
+            <option class="bg-[#8c1420] text-white">College</option>
+          </select>
+        </div>
+
+        <div class="flex flex-col gap-2 mb-4">
+          <label
+            class="text-xs font-semibold text-white/50 tracking-[0.06em] uppercase"
+            for="age"
+          >
+            Child's Age
+          </label>
+          <input
+            type="text"
+            id="age"
+            placeholder="e.g. 5 years"
+            required
+            class="bg-white/10 border border-white/15 text-white rounded-lg px-4 py-3 text-sm outline-none focus:border-[rgba(201,151,58,0.5)] placeholder:text-white/30"
+          />
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-2 mb-4">
+        <label
+          class="text-xs font-semibold text-white/50 tracking-[0.06em] uppercase"
+          for="phone"
+        >
+          Phone Number
+        </label>
+        <input
+          type="tel"
+          id="phone"
+          placeholder="+234 xxx xxx xxxx"
+          required
+          class="bg-white/10 border border-white/15 text-white rounded-lg px-4 py-3 text-sm outline-none focus:border-[rgba(201,151,58,0.5)] placeholder:text-white/30"
+        />
+      </div>
+
+      <div class="flex flex-col gap-2 mb-6">
+        <label
+          class="text-xs font-semibold text-white/50 tracking-[0.06em] uppercase"
+          for="message"
+        >
+          Message
+        </label>
+        <textarea
+          id="message"
+          placeholder="Tell us more about your child or any questions you have..."
+          required
+          class="bg-white/10 border border-white/15 text-white rounded-lg px-4 py-3 text-sm outline-none focus:border-[rgba(201,151,58,0.5)] placeholder:text-white/30 h-28 resize-none"
+        ></textarea>
+      </div>
+
+      <button
+        type="submit"
+        class="w-full bg-gradient-to-r from-[#C9973A] to-[#F1D48B] text-[#8c1420] border-none py-4 rounded-lg font-bold text-sm uppercase tracking-[0.04em] cursor-pointer transition hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(201,151,58,0.3)]"
+      >
+        Send Application →
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- WhatsApp Form Script -->
+<script>
+  document
+    .getElementById("contactForm")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      let fullname = document.getElementById("fullname").value;
+      let childname = document.getElementById("childname").value;
+      let intendedClass = document.getElementById("intendedClass").value;
+      let age = document.getElementById("age").value;
+      let phone = document.getElementById("phone").value;
+      let message = document.getElementById("message").value;
+
+      let whatsappMessage = `Hello, my name is ${fullname}%0AChild's Name: ${childname}%0AIntended Class: ${intendedClass}%0AChild's Age: ${age}%0APhone Number: ${phone}%0AMessage: ${message}`;
+
+      let phoneNumber = "2348105430843";
+
+      window.open(
+        `https://wa.me/${phoneNumber}?text=${whatsappMessage}`,
+        "_blank"
+      );
+    });
+</script>
     <section id="contact" class="py-16 bg-white">
       <div class="container mx-auto px-6">
         <!-- Google Map Embed -->

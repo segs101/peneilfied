@@ -253,21 +253,85 @@ nav {
 }
 
 /* ── GALLERY ── */
-  .gallery { background: var(--light-green); }
-  .gallery-header { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 2.5rem; }
-  .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto auto;
-    gap: 1rem;
-  }
-  .gallery-item { border-radius: 12px; overflow: hidden; cursor: pointer; }
-  .gallery-item:first-child { grid-column: span 2; grid-row: span 2; }
-  .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s; display: block; }
-  .gallery-item:first-child img { height: 480px; }
-  .gallery-item:not(:first-child) img { height: 230px; }
-  .gallery-item:hover img { transform: scale(1.05); }
+ .gallery {
+  background: var(--light-green);
+}
 
+.gallery-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 230px;
+  gap: 1rem;
+}
+
+.gallery-item {
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.gallery-item:first-child {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  display: block;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220px;
+  }
+
+  .gallery-item:first-child {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  .gallery-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 220px;
+  }
+
+  .gallery-item:first-child {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .gallery-item:first-child img,
+  .gallery-item img {
+    height: 100%;
+  }
+}
 /* Testimonials */
 .testimonials {
   background: var(--maroon);
